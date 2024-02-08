@@ -6,15 +6,15 @@ import image from "../images/image 2.png";
 
 const Choose = () => {
     return (
-        <section class="intro1">
+        <section className="intro1">
             <div>
-                <p class="choose-trxt">Why choose <span class="span2">
+                <p className="choose-trxt">Why choose <span className="span2">
                     Tranxactrust</span> for your business?
                 </p>
-                <div class="row4">
+                <div className="row4">
 
                     <div>
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -22,11 +22,11 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Cheaper rate for fiat and crypto conversion for your business profit.
+                            <p className="puncher">Cheaper rate for fiat and crypto conversion for your business profit.
                             </p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -34,12 +34,12 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Payment and delivery are synchronized for
+                            <p className="puncher">Payment and delivery are synchronized for
                                 express delivery process.
                             </p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -47,10 +47,10 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Reverse your payment for any confirmed failed delivery.</p>
+                            <p className="puncher">Reverse your payment for any confirmed failed delivery.</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -58,11 +58,11 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Instant transfer of verified payments from your escrow
+                            <p className="puncher">Instant transfer of verified payments from your escrow
                                 account to your business account. No unnecessary delay or protocol.</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -70,10 +70,10 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Track and monitor your payment.</p>
+                            <p className="puncher">Track and monitor your payment.</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -81,10 +81,10 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Instant Business Verification.</p>
+                            <p className="puncher">Instant Business Verification.</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -92,10 +92,10 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">One-time payment link.</p>
+                            <p className="puncher">One-time payment link.</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -103,12 +103,12 @@ const Choose = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher">Fast and secure payment.</p>
+                            <p className="puncher">Fast and secure payment.</p>
                         </div>
                         <ul>
-                            <li class="button">
+                            <li className="button">
                                 <Link to={'/trustmonie'} >
-                                    <button class="account">Sign Up Now</button>
+                                    <button className="account">Sign Up Now</button>
                                 </Link>
                                 <Link to={'/signup'} >
                                     <div className="contact" >Contact Sales
@@ -121,7 +121,7 @@ const Choose = () => {
                         </ul>
                     </div>
 
-                    <img class="img" src={image} alt="image" />
+                    <img className="img" src={image} alt="image" />
                 </div>
             </div>
         </section>

@@ -11,13 +11,13 @@ const Brands = () => {
     return (
         <div>
         
-        <section class="brands">
+        <section className="brands">
             
-            <p class="brandPara">Your favourite brands trust <span class="brand-intro-span">
+            <p className="brandPara">Your favourite brands trust <span className="brand-intro-span">
                 Tranxactrust.</span>
             </p>
 
-            {/* <div class="brands-logo"> */}
+            {/* <div className="brands-logo"> */}
                 <div className="brands-logo">
                     <img src={landwey} alt="LandWey logo" className="landwey"  />
 

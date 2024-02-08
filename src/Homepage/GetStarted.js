@@ -14,16 +14,16 @@ const GetStarted = () => {
         // WaitListForm(waitlist);
     }
     return(
-        <section class="getStarted">
-            <div class="ready">Ready to get started?</div>
-                <div class="getAccess">
-                    <p class="getAccess">Sign up now and activate trust on your business brand
+        <section className="getStarted">
+            <div className="ready">Ready to get started?</div>
+                <div className="getAccess">
+                    <p className="getAccess">Sign up now and activate trust on your business brand
                         and offer your customers the ultimate freedom
                         of payment for your beautiful products and services.
                     </p>
 
-                    <div class="catcher">
-                        <div class="ticker">
+                    <div className="catcher">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -31,10 +31,10 @@ const GetStarted = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher1">Fast</p>
+                            <p className="puncher1">Fast</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -42,10 +42,10 @@ const GetStarted = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher1">Easy</p>
+                            <p className="puncher1">Easy</p>
                         </div>
                
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -53,10 +53,10 @@ const GetStarted = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher1">Safe</p>
+                            <p className="puncher1">Safe</p>
                         </div>
 
-                        <div class="ticker">
+                        <div className="ticker">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
@@ -64,14 +64,14 @@ const GetStarted = () => {
                                     d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
                                     fill="#6B9BFC" />
                             </svg>
-                            <p class="puncher1">Secure</p>
+                            <p className="puncher1">Secure</p>
                         </div>
                     </div>
                 </div>
             {/* </div> */}
 
             <div id="submitEmail">
-                <input type="text" id="email" class="email-box" name="email" placeholder="Enter your email address"
+                <input type="text" id="email" className="email-box" name="email" placeholder="Enter your email address"
                     required />
                 {/* <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_1697_89)">
@@ -86,12 +86,12 @@ const GetStarted = () => {
 
 
 
-                <div class="get">
-                    <p type="button" class="start" onClick={getWaitList}>Get
+                <div className="get">
+                    <p type="button" className="start" onClick={getWaitList}>Get
                         Started</p>
 
-                    <a href="#" class="get1">Contact Sales
-                        <svg class="pointer" width="35" height="35" viewBox="0 0 35 35" fill="none"
+                    <a href="#" className="get1">Contact Sales
+                        <svg className="pointer" width="35" height="35" viewBox="0 0 35 35" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z"

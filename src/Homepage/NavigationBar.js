@@ -44,7 +44,7 @@ const NavigationBar = () => {
             <ul>
                 <ul>
                 <li className="logo">
-                    <Link to="/"><img src={logo} alt="Tranxactrust logo" className="logo" height={45} /></Link>
+                    <Link to="/"><img src={logo} alt="Tranxactrust logo" className="logo" height={50} /></Link>
                 </li>
             </ul>
                 <li className="menu">

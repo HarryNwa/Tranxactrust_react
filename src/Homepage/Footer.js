@@ -5,112 +5,112 @@ import logo from "../images/Tranxact on.png"
 const Footer = () => {
     return(
         <footer>
-         {/* <div class="footerBackgroundWidth">  */}
+         {/* <div className="footerBackgroundWidth">  */}
 
 
-        <div class="footercon">
-            <div class="row1">
-                <div class="footerBackgroundWidth">
-                    <div class="xlogo1">
-                        {/* <img class="xlogo3" src="Tranxact logoo.png" /> */}
-                        <img class="xlogo3" src={logo} alt="Tranxactrust logo"/>
-                       {/* <img  class="xlogo3" src="Tranxactrust Xlogo.png" />
-                            <img class="xlogo2" src="Tranxactrust.png" /> */}
+        <div className="footercon">
+            <div className="row1">
+                <div className="footerBackgroundWidth">
+                    <div className="xlogo1">
+                        {/* <img className="xlogo3" src="Tranxact logoo.png" /> */}
+                        <img className="xlogo3" src={logo} alt="Tranxactrust logo"/>
+                       {/* <img  className="xlogo3" src="Tranxactrust Xlogo.png" />
+                            <img className="xlogo2" src="Tranxactrust.png" /> */}
                     </div>
                 </div>
-                <div class="footer">
-                    <div class="footerheader">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Products</p>
                     </div>
-                    <p class="footercontent">PayTrusty -- TrustMonie (escrow suite)</p>
-                    <p class="footercontent">TrxtPay (crypto with escrow)</p>
-                    <p class="footercontent">Voucher</p>
-                    <p class="footercontent">Investrust</p>
-                    <p class="footercontent">Reverse Payment</p>
-                    <p class="footercontent">Collect Payment</p>
-                    <p class="footercontent">Contractrust (Govt suite)</p>
-                    <p class="footercontent">Shop</p>
+                    <p className="footercontent">PayTrusty -- TrustMonie (escrow suite)</p>
+                    <p className="footercontent">TrxtPay (crypto with escrow)</p>
+                    <p className="footercontent">Voucher</p>
+                    <p className="footercontent">Investrust</p>
+                    <p className="footercontent">Reverse Payment</p>
+                    <p className="footercontent">Collect Payment</p>
+                    <p className="footercontent">Contractrust (Govt suite)</p>
+                    <p className="footercontent">Shop</p>
                 </div>
 
-                <div class="footer">
-                    <div class="footerheader">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Process payments</p>
                     </div>
-                    <p class="footercontent">Smart Spend*</p>
-                    <p class="footercontent">Payment Link</p>
-                    <p class="footercontent">Tranxactrust POS</p>
-                    <p class="footercontent">Offline Payment</p>
-                    <p class="footercontent">Payment Gateway</p>
-                    <p class="footercontent">QR Codes</p>
+                    <p className="footercontent">Smart Spend*</p>
+                    <p className="footercontent">Payment Link</p>
+                    <p className="footercontent">Tranxactrust POS</p>
+                    <p className="footercontent">Offline Payment</p>
+                    <p className="footercontent">Payment Gateway</p>
+                    <p className="footercontent">QR Codes</p>
                 </div>
 
 
-                <div class="footer">
-                    <div class="footerheader">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Resources</p>
                     </div>
-                    <p class="footercontent">Blog</p>
-                    <p class="footercontent">Customer Journey</p>
-                    <p class="footercontent">Happenings</p>
-                    <p class="footercontent">Chargeback Guide</p>
-                    <p class="footercontent">Settlement Guide</p>
+                    <p className="footercontent">Blog</p>
+                    <p className="footercontent">Customer Journey</p>
+                    <p className="footercontent">Happenings</p>
+                    <p className="footercontent">Chargeback Guide</p>
+                    <p className="footercontent">Settlement Guide</p>
                 </div>
             </div>
 
-            <div class="row1">
-                <div class="footer">
-                    <div class="footerheader">
+            <div className="row1">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Developers</p>
                     </div>
-                    <p class="footercontent">Documents</p>
-                    <p class="footercontent">API Reference</p>
-                    <p class="footercontent">Integration</p>
-                    <p class="footercontent">Chargeback Guide</p>
-                    <p class="footercontent">Settlement Guide</p>
+                    <p className="footercontent">Documents</p>
+                    <p className="footercontent">API Reference</p>
+                    <p className="footercontent">Integration</p>
+                    <p className="footercontent">Chargeback Guide</p>
+                    <p className="footercontent">Settlement Guide</p>
                 </div>
 
-                <div class="footer">
-                    <div class="footerheader">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Company</p>
                     </div>
-                    <p class="footercontent">About Us</p>
-                    <p class="footercontent">Career</p>
-                    <p class="footercontent">Terms of Use</p>
-                    <p class="footercontent">Privacy Policy</p>
-                    <p class="footercontent">Partners</p>
-                    <p class="footercontent">White Paper</p>
+                    <p className="footercontent">About Us</p>
+                    <p className="footercontent">Career</p>
+                    <p className="footercontent">Terms of Use</p>
+                    <p className="footercontent">Privacy Policy</p>
+                    <p className="footercontent">Partners</p>
+                    <p className="footercontent">White Paper</p>
                 </div>
 
-                <div class="footer">
-                    <div class="footerheader">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Become a Partner</p>
                     </div>
-                    <p class="footercontent">Logistics agency</p>
-                    <p class="footercontent">Refer and Earn</p>
-                    <p class="footercontent">Transact and Earn</p>
-                    <p class="footercontent">Onboarding APIs</p>
-                    <p class="footercontent">Real Estate payment broker</p>
+                    <p className="footercontent">Logistics agency</p>
+                    <p className="footercontent">Refer and Earn</p>
+                    <p className="footercontent">Transact and Earn</p>
+                    <p className="footercontent">Onboarding APIs</p>
+                    <p className="footercontent">Real Estate payment broker</p>
                 </div>
             </div>
 
-            <div class="row1">
-                <div class="footer">
-                    <div class="footerheader">
+            <div className="row1">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Payments & Deliveries</p>
                     </div>
-                    <p class="footercontent">Voucher</p>
-                    <p class="footercontent">Express Delivery Protocol (EDP)</p>
+                    <p className="footercontent">Voucher</p>
+                    <p className="footercontent">Express Delivery Protocol (EDP)</p>
                 </div>
 
-                <div class="footer">
-                    <div class="footerheader">
+                <div className="footer">
+                    <div className="footerheader">
                         <p>Help and Support</p>
                     </div>
-                    <p class="footercontent">Support</p>
-                    <p class="footercontent">Know Us</p>
+                    <p className="footercontent">Support</p>
+                    <p className="footercontent">Know Us</p>
 
-                    <div class="logolink">
-                        <svg class="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
+                    <div className="logolink">
+                        <svg className="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <a href="support@tranxactrust.com">support@tranxactrust.com</a>
                             <path
@@ -118,21 +118,21 @@ const Footer = () => {
                                 fill="#6E7480" />
                         </svg>
 
-                        <svg class="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
+                        <svg className="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M20 3.8335C17.8113 3.8335 15.6441 4.26459 13.622 5.10217C11.5999 5.93975 9.76257 7.16741 8.21493 8.71505C5.08932 11.8407 3.33337 16.0799 3.33337 20.5002C3.33337 27.8668 8.11671 34.1168 14.7334 36.3335C15.5667 36.4668 15.8334 35.9502 15.8334 35.5002V32.6835C11.2167 33.6835 10.2334 30.4502 10.2334 30.4502C9.46671 28.5168 8.38337 28.0002 8.38337 28.0002C6.86671 26.9668 8.50004 27.0002 8.50004 27.0002C10.1667 27.1168 11.05 28.7168 11.05 28.7168C12.5 31.2502 14.95 30.5002 15.9 30.1002C16.05 29.0168 16.4834 28.2835 16.95 27.8668C13.25 27.4502 9.36671 26.0168 9.36671 19.6668C9.36671 17.8168 10 16.3335 11.0834 15.1502C10.9167 14.7335 10.3334 13.0002 11.25 10.7502C11.25 10.7502 12.65 10.3002 15.8334 12.4502C17.15 12.0835 18.5834 11.9002 20 11.9002C21.4167 11.9002 22.85 12.0835 24.1667 12.4502C27.35 10.3002 28.75 10.7502 28.75 10.7502C29.6667 13.0002 29.0834 14.7335 28.9167 15.1502C30 16.3335 30.6334 17.8168 30.6334 19.6668C30.6334 26.0335 26.7334 27.4335 23.0167 27.8502C23.6167 28.3668 24.1667 29.3835 24.1667 30.9335V35.5002C24.1667 35.9502 24.4334 36.4835 25.2834 36.3335C31.9 34.1002 36.6667 27.8668 36.6667 20.5002C36.6667 18.3115 36.2356 16.1442 35.398 14.1221C34.5605 12.1 33.3328 10.2627 31.7852 8.71505C30.2375 7.16741 28.4002 5.93975 26.3781 5.10217C24.356 4.26459 22.1887 3.8335 20 3.8335Z"
                                 fill="#6E7480" />
                         </svg>
 
-                        <svg class="brandlogo" width="45" height="45" viewBox="0 0 45 45" fill="none"
+                        <svg className="brandlogo" width="45" height="45" viewBox="0 0 45 45" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M14.625 3.75H30.375C36.375 3.75 41.25 8.625 41.25 14.625V30.375C41.25 33.2592 40.1042 36.0253 38.0648 38.0648C36.0253 40.1042 33.2592 41.25 30.375 41.25H14.625C8.625 41.25 3.75 36.375 3.75 30.375V14.625C3.75 11.7408 4.89576 8.97467 6.93521 6.93521C8.97467 4.89576 11.7408 3.75 14.625 3.75ZM14.25 7.5C12.4598 7.5 10.7429 8.21116 9.47703 9.47703C8.21116 10.7429 7.5 12.4598 7.5 14.25V30.75C7.5 34.4812 10.5187 37.5 14.25 37.5H30.75C32.5402 37.5 34.2571 36.7888 35.523 35.523C36.7888 34.2571 37.5 32.5402 37.5 30.75V14.25C37.5 10.5187 34.4812 7.5 30.75 7.5H14.25ZM32.3438 10.3125C32.9654 10.3125 33.5615 10.5594 34.001 10.999C34.4406 11.4385 34.6875 12.0346 34.6875 12.6562C34.6875 13.2779 34.4406 13.874 34.001 14.3135C33.5615 14.7531 32.9654 15 32.3438 15C31.7221 15 31.126 14.7531 30.6865 14.3135C30.2469 13.874 30 13.2779 30 12.6562C30 12.0346 30.2469 11.4385 30.6865 10.999C31.126 10.5594 31.7221 10.3125 32.3438 10.3125ZM22.5 13.125C24.9864 13.125 27.371 14.1127 29.1291 15.8709C30.8873 17.629 31.875 20.0136 31.875 22.5C31.875 24.9864 30.8873 27.371 29.1291 29.1291C27.371 30.8873 24.9864 31.875 22.5 31.875C20.0136 31.875 17.629 30.8873 15.8709 29.1291C14.1127 27.371 13.125 24.9864 13.125 22.5C13.125 20.0136 14.1127 17.629 15.8709 15.8709C17.629 14.1127 20.0136 13.125 22.5 13.125ZM22.5 16.875C21.0082 16.875 19.5774 17.4676 18.5225 18.5225C17.4676 19.5774 16.875 21.0082 16.875 22.5C16.875 23.9918 17.4676 25.4226 18.5225 26.4775C19.5774 27.5324 21.0082 28.125 22.5 28.125C23.9918 28.125 25.4226 27.5324 26.4775 26.4775C27.5324 25.4226 28.125 23.9918 28.125 22.5C28.125 21.0082 27.5324 19.5774 26.4775 18.5225C25.4226 17.4676 23.9918 16.875 22.5 16.875Z"
                                 fill="#6E7480" />
                         </svg>
 
-                        <svg class="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
+                        <svg className="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_119_34)">
                                 <path
@@ -146,7 +146,7 @@ const Footer = () => {
                             </defs>
                         </svg>
 
-                        <svg class="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
+                        <svg className="brandlogo" width="40" height="41" viewBox="0 0 40 41" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_119_38)">
                                 <path
@@ -164,7 +164,7 @@ const Footer = () => {
                         </svg>
 
                     </div>
-                    <div class="copyright">
+                    <div className="copyright">
                         <svg width="300" height="1" viewBox="0 0 300 1" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path opacity="0.3" d="M1 0.5H1285" stroke="#6E7480" stroke-linecap="round" />

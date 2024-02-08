@@ -25,24 +25,24 @@ const Home = () => {
 
     return (
         <div>
-            <div class="intro-wrapper">
-                <section class="welcome">
-                    <div class="unlock">
+            <div className="intro-wrapper">
+                <section className="welcome">
+                    <div className="unlock">
 
-                        <div class="barrier">
-                            <span class="span">Unlocking barriers </span>
+                        <div className="barrier">
+                            <span className="span">Unlocking barriers </span>
                             for all payments
                         </div>
 
-                        <p class="trust">Accept fiat and crypto payments from anywhere.
+                        <p className="trust">Accept fiat and crypto payments from anywhere.
                             Pay vendors with a fiat or crypto account. Retain control over payouts.
                             Never let trust cost you the deal.
                         </p>
 
                         <ul>
-                            <li class="button">
+                            <li className="button">
                                 <Link to={'/signup'} >
-                                    <button class="account">Create a free Account</button>
+                                    <button className="account">Create a free Account</button>
                                 </Link>
                                 <Link to={'/signup'} >
                                     <div className="contact" >Contact Sales
@@ -55,9 +55,9 @@ const Home = () => {
                         </ul>
                     </div>
 
-                    <div class="gif">
+                    <div className="gif">
 
-                        <img src={gif} class="img-globe" alt="Cinque Terre" />
+                        <img src={gif} className="img-globe" alt="Cinque Terre" />
 
                     </div>
                 </section>
