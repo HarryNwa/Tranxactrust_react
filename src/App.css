@@ -1153,6 +1153,7 @@ footer .copyright{
   height: calc(100vh - 200px);
   flex-shrink: 0; 
   display: block;
+  border-radius: 20px;
   background-color: #f4f6f7;
   width: fit-content;
   margin-top: 5%;
@@ -1168,9 +1169,13 @@ footer .copyright{
   background-color: #f4f6f7;
   width: fit-content;
   margin-top: -0%;
-  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.10); 
+  box-shadow: 5px 15px 15px 0px rgba(0, 0, 0, 0.10); 
   
 }
+
+/* .sign-up-content-box{
+  border-radius: 20px;
+} */
 
 
 .login-option{
@@ -1195,7 +1200,7 @@ footer .copyright{
 }
 
 .signup-logo{
-  padding-left: 45%;
+  padding-left: 41%;
   padding-top: 1%;
 }
 

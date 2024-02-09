@@ -46,7 +46,7 @@ const Delivery = () => {
 
                     <div className="linkContainer3">
                         <div className="delivery">
-                            <p className="edp">Express Delivery Protocol <acrony title="Express Delivery Protocol">(EDP)</acrony></p>
+                            <p className="edp">Express Delivery Protocol <abbr title="Express Delivery Protocol">(EDP)</abbr></p>
 
                             <div className="svgContainer">
                                 <svg className="svg1" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">

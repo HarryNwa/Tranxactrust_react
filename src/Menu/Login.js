@@ -13,6 +13,7 @@ import close from "../images/eye-close-svgrepo-com.svg"
 import Home from "../Homepage/Home";
 import { MdOutlineMail } from "react-icons/md";
 import { BsKey } from "react-icons/bs";
+import Support from "./Support";
 
 
 const Login = () => {
@@ -39,40 +40,45 @@ const Login = () => {
 
 
     return (
-        <div className="login-box">
-             <Link to={'/'}>
+        <div>
+            <div className="login-box">
+                <Link to={'/'}>
                     <img className="signup-logo" src={tranxact} height={70} />
                 </Link>
-            <div className="email">
+                <div className="email">
 
-                <div className="email-con" >
-                    Email address
-                    <div className="email-collector">
-                        <MdOutlineMail className="email-image" />
-                        <input type="text" id="email1" className="collector" name="email" placeholder="Email address" required />
-                    </div>
-
-
-                    <div className="password-con1">
-                        Password
-                        <div className="password-con">
-                            <img className="key-svg" src={key} />
-                            <input className="collector" type={passwordVisible ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-                            <img className="eye-svg" src={passwordVisible ? (close) : (eye)} alt="Toggle Password Visibility" onClick={togglePasswordVisibility} />
-
+                    <div className="email-con" >
+                        Email address
+                        <div className="email-collector">
+                            <MdOutlineMail className="email-image" />
+                            <input type="text" id="email1" className="collector" name="email" placeholder="Email address" required />
                         </div>
 
-                    </div>
-                    <button className="login-btn" ><h2>Log In</h2></button>
-                    <div className="question">New to Tranxactrust?
-                        <Link to={'/signup'}>Sign Up </Link>
 
+                        <div className="password-con1">
+                            Password
+                            <div className="password-con">
+                                <img className="key-svg" src={key} />
+                                <input className="collector" type={passwordVisible ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
+                                <img className="eye-svg" src={passwordVisible ? (close) : (eye)} alt="Toggle Password Visibility" onClick={togglePasswordVisibility} />
+
+                            </div>
+
+                        </div>
+                        <button className="login-btn" ><h2>Log In</h2></button>
+                        <div className="question">New to Tranxactrust?
+                            <Link to={'/signup'}><b>Sign Up </b></Link>
+
+                        </div>
+                        <Link to={'/'}>Forgot your password?</Link>
                     </div>
-                    <Link to={'/'}>Forgot your password?</Link>
                 </div>
+
             </div>
 
+            <Support />
         </div>
+
     );
 
 };
