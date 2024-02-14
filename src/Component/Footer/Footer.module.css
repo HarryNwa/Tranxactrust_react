@@ -1,0 +1,119 @@
+footer {
+    background-color: #c8ddf4;
+    color: rgb(6, 6, 6);
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+  .footercon{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    align-content: center;    
+    /* padding: 40px; */
+    
+  }
+  
+  footer .xlogo3{
+    height: 50px;
+  }
+  footer .xlogo1{
+    display: block;
+  }
+  
+  
+  .footerheader{
+    display: flex;
+    gap: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: rgb(255, 89, 0);
+  }
+  
+  .footerheader1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .footercontent{
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    flex-shrink: 0; 
+  }
+  
+  footer .logolink{
+    display: inline-flex;
+    align-items: center;
+    gap: 29px; 
+  }
+  
+  footer .brandlogo{
+    width: 25px;
+    height: 40px; 
+  }
+  
+  footer .copyright{
+    color: var(--Gray-Colour-08, #6E7480);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px; 
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+  }
+
+  section .button {
+    display: flex;
+    float: left;
+    width: 100%;
+    gap: 20px;
+  }
+  
+  section .account{
+    border: 5px solid  #0887ef;
+    background-color:  #0887ef;
+    border-radius: 28px;
+    padding: 10px 28px;
+    color: var(--Gray-Colour-01, #FCFCFD);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    cursor: pointer;
+    line-height: normal;
+    letter-spacing: 0.3px; 
+  }
+  
+  section .contact {
+      display: flex;
+      color: var(--Gray-Colour-08, #0887ef);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; 
+      letter-spacing: 1.3px;
+      gap: 0px;
+      position: relative;
+      top: 23%;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  section .contact:hover{
+    column-gap: 5px;
+    color: #4e9cea;
+  }
