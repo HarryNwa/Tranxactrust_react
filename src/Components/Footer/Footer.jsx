@@ -17,7 +17,7 @@ const Footer = () => {
                             <img className="xlogo2" src="Tranxactrust.png" /> */}
                     </div>
                 </div>
-                <div className={style.footer}>
+                <div className={style.foot}>
                     <div className={style.footerheader}>
                         <p>Products</p>
                     </div>
@@ -41,18 +41,6 @@ const Footer = () => {
                     <p className={style.footercontent}>Offline Payment</p>
                     <p className={style.footercontent}>Payment Gateway</p>
                     <p className={style.footercontent}>QR Codes</p>
-                </div>
-
-
-                <div className={style.footer}>
-                    <div className={style.footerheader}>
-                        <p>Resources</p>
-                    </div>
-                    <p className={style.footercontent}>Blog</p>
-                    <p className={style.footercontent}>Customer Journey</p>
-                    <p className={style.footercontent}>Happenings</p>
-                    <p className={style.footercontent}>Chargeback Guide</p>
-                    <p className={style.footercontent}>Settlement Guide</p>
                 </div>
             </div>
 
@@ -93,6 +81,19 @@ const Footer = () => {
             </div>
 
             <div className={style.row1}>
+
+
+
+            <div className={style.footer}>
+                    <div className={style.footerheader}>
+                        <p>Resources</p>
+                    </div>
+                    <p className={style.footercontent}>Blog</p>
+                    <p className={style.footercontent}>Customer Journey</p>
+                    <p className={style.footercontent}>Happenings</p>
+                    <p className={style.footercontent}>Chargeback Guide</p>
+                    <p className={style.footercontent}>Settlement Guide</p>
+                </div>
                 <div className={style.footer}>
                     <div className={style.footerheader}>
                         <p>Payments & Deliveries</p>

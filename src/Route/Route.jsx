@@ -5,6 +5,9 @@ import Signup from "../pages/Signup/Signup";
 import Trustmonie from "../Products/Trustmonie";
 import About from "../pages/AboutUs/AboutUs";
 import Investrust from "../Products/Investrust";
+import { DashBoard } from "../pages/Dashboard/DashBoard";
+import { Store } from "../pages/Store/Store";
+import Shop from "../Products/Shop";
 
 export const ROUTES = [
     {
@@ -19,10 +22,6 @@ export const ROUTES = [
                 path: "home",
                 element:<Home/>,
             },
-            {
-                path: "login",
-                element: <Login/>,
-            },
 
             {
                 path: "/about",
@@ -30,18 +29,29 @@ export const ROUTES = [
             },
 
             {
+                path: '/trustmonie',
+                element: <Trustmonie />
+            },
+
+            {
                 path: "/investrust",
                 element: <Investrust /> 
                 // <a href="#intro" />,
             },
+
+            {
+                path: "/shop",
+                element: <Shop />,
+            },
+
         ]
         
     }, 
 
-    // {
-    //     path: '/login',
-    //     element: <Login/>,
-    // },
+    {
+        path: '/login',
+        element: <Login/>,
+    },
 
     {
         path: '/signup',
@@ -49,7 +59,7 @@ export const ROUTES = [
     },
 
     {
-        path: '/trustmonie',
-        element: <Trustmonie />
-    }
+        path: "/dashboard",
+        element: <DashBoard /> 
+    },
 ]

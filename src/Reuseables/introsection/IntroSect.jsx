@@ -10,7 +10,7 @@ import Delivery from "../../pages/Home/Delivery/Delivery";
 import Individuals from "../../pages/Home/Individual/Individuals";
 import Choose from "../../pages/Home/Choose/Choose";
 import GetStarted from "../../pages/Home/GetStarted/GetStarted";
-import Footer from "../../Component/Footer/Footer";
+import Footer from "../../Components/Footer/Footer";
 import Login from "../../pages/Login/Login";
 import style from "./IntroSect.module.css";
 

@@ -61,8 +61,8 @@ section .listContainer {
 }
 
 .svg3 {
-    width: 30px;
-    height: 40px;
+    width: 40px;
+    height: 50px;
     flex-shrink: 0;
     padding: 6px;
     fill: var(--Secondary-Colour-01, #f6f8fa);
@@ -83,7 +83,7 @@ section .listContainer {
 
 section .link {
     display: flex;
-    gap: 195px;
+    gap: 155px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -104,7 +104,7 @@ section .row1 {
 
 section .escrow {
     display: flex;
-    gap: 181px;
+    gap: 141px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -116,7 +116,7 @@ section .escrow {
 
 section .reverse {
     display: flex;
-    gap: 159px;
+    gap: 119px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -129,7 +129,7 @@ section .reverse {
 
 section .crypto {
     display: flex;
-    gap: 172px;
+    gap: 132px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -140,7 +140,7 @@ section .crypto {
 
 section .support {
     display: flex;
-    gap: 204px;
+    gap: 164px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -151,7 +151,7 @@ section .support {
 
 section .delivery {
     display: flex;
-    gap: 135px;
+    gap: 95px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -202,6 +202,7 @@ section .moreContainer{
     font-weight: 600;
     line-height: normal; 
     padding: 0px 40px;
+    width: 100%;
   }
   
   .moreContainer:hover{

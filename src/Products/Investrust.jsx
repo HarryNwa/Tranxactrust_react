@@ -1,30 +1,8 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-// import gif from "../../../images/mvp2.gif";
-// import Signup from "../../Signup/Signup";
-// import { useNavigate } from "react-router-dom";
-// import Brands from "../Brands/Brands";
-// import Products from "../Products/Products";
-// import Services from "../Services/Services";
-// import Delivery from "../Delivery/Delivery";
-// import Individuals from "../Individual/Individuals";
-// import Choose from "../Choose/Choose";
-// import GetStarted from "../GetStarted/GetStarted";
-// import Footer from "../../../Component/Footer/Footer";
-// import Login from "../../Login/Login";
-// import style from "./Intro.module.css"
 import house from "../images/house-frame-removebg-preview.png";
 import IntroSect from "../Reuseables/introsection/IntroSect";
 
 const Investrust = ({text, img, text2}) => {
-    // const navigate = useNavigate();
-
-    // const home = () => {
-    //     navigate('/home');
-    // };
-    // const signup = () => {
-    //     navigate('/signup');
-    // };
 
     return (
         <IntroSect text={"Win client trust,"} imgage={house} text2={"fuel your growth"} text3={"Accept fiat and crypto payments from anywhere. Pay vendors with a fiat or crypto account. Retain control over payouts. Never let trust cost you the deal."} btn={"Sign Up Now"} btn2={"Contact sales"}/>

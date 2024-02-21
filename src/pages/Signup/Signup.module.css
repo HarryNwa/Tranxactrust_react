@@ -1,12 +1,13 @@
 .logo {
-    padding-left: 50%;
     padding-top: 1%;
+    height: 105px;
+    margin: 0 auto;
+
 }
 
 .collector {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 5px 20px;
     font-size: 18px;
     display: flex;
     border: 1px solid #ccc;
@@ -17,8 +18,7 @@
 
 .nameCollector {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 5px 20px;
     font-size: 18px;
     display: flex;
     border: 1px solid #ccc;
@@ -28,7 +28,6 @@
 
 .signupBox {
     margin: 0 auto;
-    /* height: calc(100vh - 200px); */
     flex-shrink: 0;
     display: flex;
     background-color: #f4f6f7;
@@ -93,10 +92,6 @@
     cursor: pointer;
 }
 
-/* .loginBtn:hover {
-    background-color: var(--Secondary-Colour-09, #1157e4);
-} */
-
 .question {
     display: flex;
     justify-content: space-between;
@@ -105,7 +100,6 @@
 .country_drop {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
     font-size: 18px;
     display: flex;
     border: 1px solid #ccc;
@@ -161,7 +155,7 @@
 .signupOption {
     width: 360px;
     flex-shrink: 0;
-    font-size: 15px;
+    font-size: 25px;
     color: whitesmoke;
     padding: 50px;
     text-align: right;
@@ -176,7 +170,8 @@
 
 .signupOption1:hover,
 .signupOption2:hover,
-.signupOption3:hover {
+.signupOption3:hover,
+.signupOption4:hover {
     color: #068bf7;
     cursor: pointer;
 
@@ -187,15 +182,15 @@
 .signupBtn {
     display: flex;
     width: 100%;
-    height: 30px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 5px 8px;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
     gap: 75px;
     margin-top: 30px;
     color: white;
     cursor: pointer;
-    flex-shrink: 0;
     border-radius: 5px;
     background: var(--Secondary-Colour-09, #173c5a);
     border: none;

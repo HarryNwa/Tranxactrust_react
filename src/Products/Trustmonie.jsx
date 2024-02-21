@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../Component/Footer/Footer";
+import Footer from "../Components/Footer/Footer";
 
 
 const Trustmonie = () => {
@@ -13,10 +13,7 @@ const Trustmonie = () => {
             <Link to={'/signup'} class="update" >
                 <h2> Sign up</h2>
             </Link>
-
-            <div>
-                <Footer />
-            </div>
+            
         </div>
     );
 }

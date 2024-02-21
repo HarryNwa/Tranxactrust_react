@@ -52,20 +52,20 @@ const Signup = () => {
         e.preventDefault();
         try {
 
-            const apiUrl = `${process.env.REACT_APP_TRANXACTRUST}/users`;
+            // const apiUrl = `${process.env.REACT_APP_TRANXACTRUST}/users`;
 
 
             // const apiUrl = `${process.env.REACT_API_TRANXACTRUST}/users`;
 
 
-            // const apiUrl = `http://localhost:9001/api/users`;
+            const apiUrl = `http://localhost:9000/api/users`;
             const userPhoneData = {
                 ...userData,
                 phoneNumber: phoneNumber,
                 password: password
             };
             console.log(phoneNumber);
-    
+
 
             await fetch(apiUrl, {
                 method: "POST",
@@ -95,7 +95,7 @@ const Signup = () => {
     return (
         <div>
             <Link to={'/'}>
-                <img className={style.logo} src={tranxact} height={70} />
+                <img className={style.logo} src={tranxact} />
             </Link>
 
             <div className={style.signupBox}>
@@ -241,7 +241,11 @@ const Signup = () => {
                         <Link to={'/login'}><b>Log In </b></Link>
 
                     </div>
-                    <button className={style.signupBtn} onClick={createUser}><h2>Sign Up</h2></button>
+                    <Link to={'/dashboard'}>
+                    <button className={style.signupBtn} onClick={createUser}>
+                            Sign Up
+                        </button>
+                    </Link>
 
                     <p className={style.agreement}>By clicking the
                         “Create my account” button, you agree to Tranxactrust’s

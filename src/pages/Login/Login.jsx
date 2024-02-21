@@ -43,7 +43,7 @@ const Login = () => {
         <div>
             <div className={style.loginBox}>
                 <Link to={'/'}>
-                    <img className={style.logo} src={tranxact} height={70} />
+                    <img className={style.logo} src={tranxact} />
                 </Link>
                 <div className={style.email}>
 

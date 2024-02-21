@@ -17,6 +17,10 @@ const Products = () => {
         navigate('/shop');
     };
 
+    const goInvest = () => {
+        navigate('/investrust')
+    }
+
     return (
         <section className={style.unlock1}>
             <div className={style.barrier1}><p>Unlocking payment barriers
@@ -78,13 +82,19 @@ const Products = () => {
                         <img className={style.pay} src={property} alt="house" />
 
 
-                    <Link to={'/investrust'} className={style.moreContainer}> Start Investing
+                    {/* <Link to={'/investrust'} className={style.moreContainer}> Start Investing */}
+                    <button onClick={goInvest} className={style.account2}>Start Investing
+                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#FCFCFD" />
+                                <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#FCFCFD" />
+                            </svg>
+                        </button>
 
-                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        {/* <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
                             <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
                         </svg>
-                    </Link>
+                    </Link> */}
                     <div className={style.unlock}>
                         <p className={style.introHeader}>Unlock your ultimate trust with escrow payment.
                             Explore the magic of its <span className={style.span2}>Reverse Payment </span>
@@ -165,19 +175,19 @@ const Products = () => {
 
                     </div>
 
-                    <p><span className={style.monie}>Shop</span></p>
+                    <div className={style.shop}><span className={style.monie}>Shop</span>
 
                     <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on
                         Tranxactrust. Open your one-stop online Shop on our marketplace
                         and start selling to new customers globally. </p>
-
-                    <Link to={'/shop'} className={style.moreContainer} > Go Shopping
+                    <Link to={'/store'} className={style.moreContainer} > Go Shopping
 
                         <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
                             <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
                         </svg>
                     </Link>
+                    </div>
 
                 </div>
             </div>
