@@ -252,9 +252,9 @@ const Signup = () => {
                         <Link to={'/'} className={style.policy} > terms of acceptable use and
                             Data Processing Agreement. </Link>
                     </p>
-                    <p className={style.agreement}>To learn more about how Paystack collects,
-                        uses and discloses your personal data,
-                        please read our <Link to={'/'} className={style.policy} >Privacy Policy.</Link></p>
+                    <p className={style.agreement}>To learn more about how Tranxactrust collects,
+                        uses and discloses your personal data, please read our 
+                        <Link to={'/'} className={style.policy} >Privacy Policy.</Link></p>
                 </div>
             </div>
             <Support />

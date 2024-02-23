@@ -3,7 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 import photo from "../../../images/payment-photo.png";
 import style from "./Products.module.css";
 import house from "../../../images/house-frame-removebg-preview.png";
-import property from "../../../images/property.png"
+import property from "../../../images/property.png";
+import shopKeeper from "../../../images/Store Keeper.png";
+import coin from "../../../images/Crypto.png";
 
 
 const Products = () => {
@@ -40,7 +42,7 @@ const Products = () => {
                         when selling to strangers on social media or anywhere.
                         With Trustmonie, you get direct and escrow accounts in one
                         <Link to={'/trustmonie'} className={style.update} > Sign Up. </Link>
-                        A double-in-one account offers the flexible options to 
+                        A double-in-one account offers the flexible options to
                         accept direct or escrow payments and win customer trust.</p>
 
                     <Link to={'/trustmonie'} className={style.moreContainer} > Sign Up Now
@@ -53,13 +55,16 @@ const Products = () => {
                     <img className={style.pay} src={photo} alt="payment image" />
 
                     <p><span className={style.monie}>TrxtPay</span></p>
+                    {/* <div className={style.shopFlexer}> */}
 
+                    {/* <img src={coin} alt={"Crypto coin"} className={style.coin}/> */}
                     <p className={style.monie1}>Stay ahead of others and start accepting crypto payment.
                         Convert fiat to Ethereum, Bitcoin and USDT. TrxtPay enables gasless
                         transactions for merchant and individuals.You also get direct and
                         escrow crypto wallets in one <Link to={'/trxtpay'} className="update" > Sign Up. </Link>
 
                     </p>
+                    {/* </div> */}
 
                     <Link to={'/trxtpay'} className={style.moreContainer} > Sign Up Now
 
@@ -78,19 +83,19 @@ const Products = () => {
                         payment processor, it is easier to guarantee your clients
                         payment protection. </p>
 
-                        {/* <img className={style.pay} src={house} alt="house" /> */}
-                        <img className={style.pay} src={property} alt="house" />
+                    {/* <img className={style.pay} src={house} alt="house" /> */}
+                    <img className={style.pay} src={property} alt="house" />
 
 
                     {/* <Link to={'/investrust'} className={style.moreContainer}> Start Investing */}
                     <button onClick={goInvest} className={style.account2}>Start Investing
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#FCFCFD" />
-                                <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#FCFCFD" />
-                            </svg>
-                        </button>
+                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#FCFCFD" />
+                            <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#FCFCFD" />
+                        </svg>
+                    </button>
 
-                        {/* <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    {/* <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
                             <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
                         </svg>
@@ -174,22 +179,28 @@ const Products = () => {
 
 
                     </div>
+                </div>
 
-                    <div className={style.shop}><span className={style.monie}>Shop</span>
+            </div>
+
+            <div className={style.shop}>
+                    <span className={style.monie}>Shop</span>
+                    <div className={style.shopFlexer}>
 
                     <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on
                         Tranxactrust. Open your one-stop online Shop on our marketplace
-                        and start selling to new customers globally. </p>
-                    <Link to={'/store'} className={style.moreContainer} > Go Shopping
-
-                        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
-                            <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
-                        </svg>
-                    </Link>
-                    </div>
-
+                        and start selling to new customers globally.
+                    </p>
+                    <img src={shopKeeper} alt="Store Keeper"/>
                 </div>
+
+                <Link to={'/store'} className={style.moreContainer} > Go Shopping
+
+                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
+                        <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
+                    </svg>
+                </Link>
             </div>
         </section>
     );

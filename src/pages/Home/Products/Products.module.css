@@ -132,6 +132,16 @@
     padding: 50px;
     margin-top: 5%;
   }
+
+  section .shopFlexer{
+    display: flex;
+    height: 335px;
+
+  }
+
+  section .coin{
+    height: 435px;
+  }
   
   section .monie1{
     width: 450px;

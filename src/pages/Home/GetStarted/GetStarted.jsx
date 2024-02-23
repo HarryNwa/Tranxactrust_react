@@ -14,61 +14,63 @@ const GetStarted = () => {
         window.open(formUrl, "_blank");
         // WaitListForm(waitlist);
     }
-    return(
+    return (
         <section className={style.getStarted}>
             <div className={style.ready}>Ready to get started?</div>
-                <div className={style.getAccess}>
-                    <p className={style.getAccess}>Sign up now and activate trust on your business brand
-                        and offer your customers the ultimate freedom
-                        of payment for your beautiful products and services.
-                    </p>
+            <div className={style.getAccess}>
+                <p className={style.getAccess}>Sign up now and activate trust on your business brand
+                    and offer your customers the ultimate freedom
+                    of payment for your beautiful products and services.
+                </p>
 
-                    <div className={style.catcher}>
-                        <div className={style.ticker}>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect width="24" height="24" rx="10" fill="#EEF4FF" />
-                                <path
-                                    d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
-                                    fill="#6B9BFC" />
-                            </svg>
-                            <p className={style.puncher1}>Fast</p>
-                        </div>
+                <div className={style.catcher}>
+                    <div className={style.ticker}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="10" fill="#EEF4FF" />
+                            <path
+                                d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
+                                fill="#6B9BFC" />
+                        </svg>
+                        <p className={style.puncher1}>Fast</p>
+                    </div>
 
-                        <div className={style.ticker}>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect width="24" height="24" rx="10" fill="#EEF4FF" />
-                                <path
-                                    d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
-                                    fill="#6B9BFC" />
-                            </svg>
-                            <p className={style.puncher1}>Easy</p>
-                        </div>
-               
-                        <div className={style.ticker}>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect width="24" height="24" rx="10" fill="#EEF4FF" />
-                                <path
-                                    d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
-                                    fill="#6B9BFC" />
-                            </svg>
-                            <p className={style.puncher1}>Safe</p>
-                        </div>
-
-                        <div className={style.ticker}>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <rect width="24" height="24" rx="10" fill="#EEF4FF" />
-                                <path
-                                    d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
-                                    fill="#6B9BFC" />
-                            </svg>
-                            <p className={style.puncher1}>Secure</p>
-                        </div>
+                    <div className={style.ticker}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="10" fill="#EEF4FF" />
+                            <path
+                                d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
+                                fill="#6B9BFC" />
+                        </svg>
+                        <p className={style.puncher1}>Easy</p>
                     </div>
                 </div>
+
+                <div className={style.catcher}>
+                    <div className={style.ticker}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="10" fill="#EEF4FF" />
+                            <path
+                                d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
+                                fill="#6B9BFC" />
+                        </svg>
+                        <p className={style.puncher1}>Safe</p>
+                    </div>
+
+                    <div className={style.ticker}>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="10" fill="#EEF4FF" />
+                            <path
+                                d="M8.79995 15.9L4.59995 11.7L3.19995 13.1L8.79995 18.7L20.8 6.70005L19.4 5.30005L8.79995 15.9Z"
+                                fill="#6B9BFC" />
+                        </svg>
+                        <p className={style.puncher1}>Secure</p>
+                    </div>
+                </div>
+            </div>
             {/* </div> */}
 
             <div id="submitEmail">
