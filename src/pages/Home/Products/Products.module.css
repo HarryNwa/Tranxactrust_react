@@ -256,7 +256,7 @@
 
 
 /* Media Queries */
-@media (min-width: 912px) and (max-width: 1780px) {
+/* @media (min-width: 912px) and (max-width: 1780px) {
   .unlock1{
     display: block;
     width: 1800px;
@@ -276,7 +276,7 @@
     gap: 65px;
     margin: 0 auto;
     justify-content: center;
-    /* gap: 50px; */
+    gap: 50px;
   
   }
   
@@ -310,7 +310,7 @@
     line-height: normal;
     text-align: center;
     letter-spacing: 1.8px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
   
   section .span1 {
@@ -524,7 +524,7 @@
     gap: 65px;
     margin: 0 auto;
     justify-content: center;
-    /* gap: 50px; */
+    gap: 50px;
   
   }
   
@@ -772,7 +772,7 @@
     gap: 65px;
     margin: 0 auto;
     justify-content: center;
-    /* gap: 50px; */
+    gap: 50px;
   
   }
   
@@ -1021,7 +1021,7 @@
     gap: 65px;
     margin: 0 auto;
     justify-content: center;
-    /* gap: 50px; */
+    gap: 50px;
   
   }
   
@@ -1245,9 +1245,12 @@
     flex-wrap: wrap; 
   }
 
-}
+} */
 
-@media(min-width: 390px) and (max-width: 584px) {
+/* @media(min-width: 390px) and (max-width: 584px) { */
+
+  @media screen and (max-width: 728px) {
+
   .unlock1{
     display: block;
     width: 100%;

@@ -75,7 +75,7 @@ section .mist {
 
 
 /* Media Queries */
-@media (min-width: 912px) and (max-width: 1780px)   {
+/* @media (min-width: 912px) and (max-width: 1780px)   {
     .brands {
         display: block;
         margin: 5px;
@@ -108,7 +108,7 @@ section .mist {
     .brand {
         display: flex;
         margin: 0 auto;
-        /* grid-template-columns: 1fr 1fr ; */
+        grid-template-columns: 1fr 1fr ;
         width: fit-content;
     }
     
@@ -172,7 +172,7 @@ section .mist {
     
     .brand {
         display: grid;
-        /* margin: 5px; */
+        margin: 5px;
         grid-template-columns: 1fr 1fr;
     }
     
@@ -203,7 +203,7 @@ section .mist {
     }
 
 }
-/* @media (min-width: 250px) { */
+@media (min-width: 250px) {
 @media (min-width: 350px) and (max-width: 389px) {
     .brands {
         display: block;
@@ -236,9 +236,9 @@ section .mist {
     
     .brand {
         display: grid;
-        /* margin: 5px; */
+        margin: 5px;
         grid-template-columns: 1fr 1fr;
-        /* width: 200px; */
+        width: 200px;
     }
     
     .landwey {
@@ -272,7 +272,7 @@ section .mist {
 @media(min-width: 540px) and (max-width: 767.98px) {
     .brands {
         display: block;
-        /* margin: 5px; */
+        margin: 5px;
         width: 100%;
         margin-left: 1px;
 
@@ -304,7 +304,7 @@ section .mist {
     
     .brand {
         display: grid;
-        /* margin: 5px; */
+        margin: 5px;
         grid-template-columns: 1fr 1fr;
         width: 400px;
     }
@@ -334,9 +334,10 @@ section .mist {
         height: 70px;
     
     }
-}
+} */
 
-@media(min-width: 390px) and (max-width: 539px){
+@media screen and (max-width: 728px) {
+/* @media(min-width: 390px) and (max-width: 539px){ */
 
     .brands {
         display: block;

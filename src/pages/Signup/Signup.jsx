@@ -242,7 +242,7 @@ const Signup = () => {
 
                     </div>
                     <Link to={'/dashboard'}>
-                    <button className={style.signupBtn} onClick={createUser}>
+                        <button className={style.signupBtn} onClick={createUser}>
                             Sign Up
                         </button>
                     </Link>
@@ -253,7 +253,7 @@ const Signup = () => {
                             Data Processing Agreement. </Link>
                     </p>
                     <p className={style.agreement}>To learn more about how Tranxactrust collects,
-                        uses and discloses your personal data, please read our 
+                        uses and discloses your personal data, please read our
                         <Link to={'/'} className={style.policy} >Privacy Policy.</Link></p>
                 </div>
             </div>

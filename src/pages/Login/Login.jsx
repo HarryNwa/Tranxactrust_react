@@ -59,8 +59,14 @@ const Login = () => {
                             Password
                             <div className={style.passwordCon}>
                                 <img className={style.keySvg} src={key} />
-                                <input className={style.collector} type={passwordVisible ? 'text' : 'password'} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password" />
-                                <img className={style.eyeSvg} src={passwordVisible ? (close) : (eye)} alt="Toggle Password Visibility" onClick={togglePasswordVisibility} />
+                                <input 
+                                className={style.collector} 
+                                type={passwordVisible ? 'text' : 'password'} 
+                                value={password} onChange={(e) => setPassword(e.target.value)} 
+                                placeholder="Password" />
+                                <img className={style.eyeSvg} 
+                                src={passwordVisible ? (close) : (eye)} alt="Toggle Password Visibility" 
+                                onClick={togglePasswordVisibility} />
 
                             </div>
 

@@ -136,7 +136,7 @@
 
 /* Media Queries */
 
-@media (min-width: 912px) and (max-width: 1780px)  {
+/* @media (min-width: 912px) and (max-width: 1780px)  {
 
 }
 
@@ -153,7 +153,10 @@
 	
 }
 
-@media(min-width: 390px) and (max-width: 539px){
+@media(min-width: 390px) and (max-width: 539px){ */
+
+  @media screen and (max-width: 728px) {
+
   .forIndividuals{
     display: block;
     background: rgb(242, 243, 250) -96.294px 0px / 147.798% 100% no-repeat; 

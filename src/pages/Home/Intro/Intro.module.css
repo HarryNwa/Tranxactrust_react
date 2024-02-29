@@ -117,11 +117,11 @@ section .contact:hover {
 
 
 /* Media Queries */
-@media (min-width: 912px) and (max-width: 1780px)  {
+/* @media screen and (max-width: 728px)  {
   .welcome {
     width: 100%;
     margin-left: 60px;
-    /* padding: 0px 5px 0px 15px; */
+    padding: 0px 5px 0px 15px;
   }
   section .gif {
     display: block;
@@ -214,10 +214,10 @@ section .contact:hover {
 }
 
 
-@media (min-width: 768px) and (max-width: 911px)  {
+@media screen and (max-width: 728px)  {
   .welcome {
     width: fit-content;
-    /* padding: 0px 0px 0px 0px; */
+    padding: 0px 0px 0px 0px;
   }
   section .gif {
     display: none;
@@ -309,7 +309,7 @@ section .contact:hover {
 
 }
 
-@media (min-width: 250px) and (max-width: 689px) {
+@media screen and (max-width: 728px) {
 	.welcome {
     padding: 0px 0px 0px 8px;
     width: 400px;
@@ -406,7 +406,7 @@ section .contact:hover {
 }
 
 
-@media(min-width: 540px) and (max-width: 767.98px) {
+@media screen and (max-width: 767.98px) {
   .welcome {
     width: 450px;
     padding: 0px 5px 0px 15px;
@@ -499,9 +499,10 @@ section .contact:hover {
   .contactSvg{
     display: none;
   }
-}
+} */
 
-@media(min-width: 390px) and (max-width: 539px){
+@media screen and (max-width: 728px) {
+/* @media(min-width: 390px) and (max-width: 539px){ */
   .welcome {
     padding: 0px 5px 0px 15px;
   }
