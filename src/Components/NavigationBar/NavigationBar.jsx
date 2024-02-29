@@ -4,17 +4,10 @@ import logo from "../../images/Tranxact on.png";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import style from "./NavigationBar.module.css";
+import FilledBtn from "../../Reuseables/Buttons/FilledBtn/FilledBtn";
 
 const NavigationBar = () => {
   const navigate = useNavigate();
-
-  const login = () => {
-    navigate("/login");
-  };
-
-  const signup = () => {
-    navigate("/signup");
-  };
 
   const [isLogin, setLogin] = useState(false);
 
@@ -38,37 +31,35 @@ const NavigationBar = () => {
               </Link>
             </li>
           </ul>
-          <li className={style.menu}>
-            <Link to="/">BankingPlus</Link>
+          <li >
+            <Link to="/" className={style.menu}>BankingPlus</Link>
           </li>
           <li>
-            <Link to="/">Blockchain</Link>
+            <Link to="/" className={style.menu}>Blockchain</Link>
           </li>
           <li>
-            <Link to="/">Businesses</Link>
+            <Link to="/" className={style.menu}>Businesses</Link>
           </li>
           <li>
-            <Link to="/">Pricing</Link>
+            <Link to="/" className={style.menu}>Pricing</Link>
           </li>
           <li>
-            <Link to="/">Support</Link>
+            <Link to="/" className={style.menu}>Support</Link>
           </li>
           <li>
-            <Link to="/">Resources</Link>
+            <Link to="/" className={style.menu}>Resources</Link>
           </li>
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/about" className={style.menu}>About Us</Link>
           </li>
           <ul className={style.loginSignup}>
             <li className="">
-              {/* <button onClick={getLogin}>Log In</button> */}
-              <Link to={"/login"} className={style.btn}>
+              <Link to={"/login"} className={style.login}>
                 Log In
               </Link>
-              {/* <i onClick={() => toggleModal(false)} className="bi bi-x-lg"></i> */}
             </li>
-            <li className={style.signup}>
-              <Link to={"/signup"}>Sign Up</Link>
+            <li>
+              <FilledBtn style={style.signup} btn={"Sign Up"}/>
             </li>
           </ul>
         </ul>

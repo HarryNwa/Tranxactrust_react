@@ -2,10 +2,11 @@ import React from "react";
 import house from "../images/house-frame-removebg-preview.png";
 import IntroSect from "../Reuseables/introsection/IntroSect";
 
-const Investrust = ({text, img, text2}) => {
+const Investrust = () => {
 
     return (
-        <IntroSect text={"Win client trust,"} imgage={house} text2={"fuel your growth"} text3={"Accept fiat and crypto payments from anywhere. Pay vendors with a fiat or crypto account. Retain control over payouts. Never let trust cost you the deal."} btn={"Sign Up Now"} btn2={"Contact sales"}/>
+        <IntroSect text={"Win client trust,"} imgage={house} text2={"fuel your growth"} 
+        text3={"Never let trust cost you the BIG deal. Win more with Investrust. Collect payments in fiat or crypto from anywhere. Pay real estate agents from anywhere and retain control over payouts."} btn={"Sign Up Now"} btn2={"Contact sales"}/>
         // <div>
         //     <div className={style.wrapper}>
         //         <section className={style.welcome}>

@@ -1,7 +1,7 @@
 import React from "react";
 import buyer from "../../../images/image 5.png"
 import { Link } from "react-router-dom";
-import style from "./Individual.module.css";
+import style from "./Individuals.module.css";
 
 const Individuals = () => {
     return (
@@ -10,7 +10,7 @@ const Individuals = () => {
             <div className={style.barrier1}>
                 <p>Unlocking boundless payment possibilities
                     <span className={style.span3}>
-                        <br/>
+                        <br />
                         for consumers</span>
                 </p>
 
@@ -24,8 +24,8 @@ const Individuals = () => {
                 <img className={style.happy} src={buyer} alt="Happy buyer" />
 
                 <div className={style.barrier1}>
-                    <p className={style.introHeader}>Let's save the day from fraud, shall we? 
-                    <br />
+                    <p className={style.introHeader}>Let's save the day from fraud, shall we?
+                        <br />
                         You<span className={style.span3}> get delivery</span> or <span className={style.span3}>Reverse Payment</span>
                         when you pay into your vendor's Trustmonie escrow account.
                     </p>

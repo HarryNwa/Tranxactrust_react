@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../Components/Footer/Footer";
 
 
 const Shop = () => {
@@ -13,10 +12,6 @@ const Shop = () => {
             <Link to={'/signup'} class="update" >
                 <h2> Sign up</h2>
             </Link>
-
-            <div>
-                <Footer />
-            </div>
         </div>
     )
 }

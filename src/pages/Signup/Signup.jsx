@@ -58,7 +58,7 @@ const Signup = () => {
             // const apiUrl = `${process.env.REACT_API_TRANXACTRUST}/users`;
 
 
-            const apiUrl = `http://localhost:9000/api/users`;
+            const apiUrl = `http://localhost:8770/api/users`;
             const userPhoneData = {
                 ...userData,
                 phoneNumber: phoneNumber,

@@ -31,7 +31,7 @@ const Footer = () => {
                         <p className={style.footercontent}>Shop</p>
                     </div>
 
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Process payments</p>
                         </div>
@@ -42,24 +42,18 @@ const Footer = () => {
                         <p className={style.footercontent}>Payment Gateway</p>
                         <p className={style.footercontent}>QR Codes</p>
                     </div>
-                    <div className={style.copyright}>
-                        <svg width="300" height="1" viewBox="0 0 300 1" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path opacity="0.3" d="M1 0.5H1285" stroke="#6E7480" strokeLinecap="round" />
-                        </svg>
-                        <p>&copy; Tranxactrust 2024, All rights reserved<br /></p>
-                    </div>
+                   
                 </div>
 
                 <div className={style.row1}>
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Payments & Deliveries</p>
                         </div>
                         <p className={style.footercontent}>Voucher</p>
                         <p className={style.footercontent}>Express Delivery Protocol (EDP)</p>
                     </div>
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Developers</p>
                         </div>
@@ -70,7 +64,7 @@ const Footer = () => {
                         <p className={style.footercontent}>Settlement Guide</p>
                     </div>
 
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Company</p>
                         </div>
@@ -86,7 +80,7 @@ const Footer = () => {
 
                 <div className={style.row1}>
 
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Become a Partner</p>
                         </div>
@@ -97,7 +91,7 @@ const Footer = () => {
                         <p className={style.footercontent}>Real Estate payment broker</p>
                     </div>
 
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Resources</p>
                         </div>
@@ -109,7 +103,7 @@ const Footer = () => {
                     </div>
 
 
-                    <div className={style.footer}>
+                    <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Help and Support</p>
                         </div>
@@ -171,6 +165,13 @@ const Footer = () => {
                             </svg>
 
                         </div>
+                        <div className={style.copyright}>
+                        <svg width="300" height="1" viewBox="0 0 300 1" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.3" d="M1 0.5H1285" stroke="#6E7480" strokeLinecap="round" />
+                        </svg>
+                        <p>&copy; Tranxactrust 2024, All rights reserved<br /></p>
+                    </div>
                     </div>
                 </div>
             </div>
