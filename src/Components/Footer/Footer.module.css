@@ -170,7 +170,7 @@ footer {
   
     .foot{
       padding-top: 15%;
-      margin-left: 20px;
+      margin-left: 10px;
     }
     
     .footercon{
@@ -190,12 +190,12 @@ footer {
       display: block;
     }
     
-    /* section .row1{
+    section .row1{
       display: grid;
       gap: 20px; 
       margin: 0 auto;
     
-    } */
+    }
     
     .footerheader{
       display: flex;

@@ -36,7 +36,7 @@ const Products = () => {
 
             <div className={style.paymentIntro}>
                 <div className={style.paycolumn}>
-                    <p><span className={style.monie}>Trustmonie</span></p>
+                    <span className={style.monie}>Trustmonie</span>
 
                     <p className={style.monie1}>Dealing with trust issues is inevitable
                         when selling to strangers on social media or anywhere.
@@ -54,7 +54,7 @@ const Products = () => {
 
                     <img className={style.pay} src={photo} alt="payment image" />
 
-                    <p><span className={style.monie}>TrxtPay</span></p>
+                    <span className={style.monie}>TrxtPay</span>
                     {/* <div className={style.shopFlexer}> */}
 
                     {/* <img src={coin} alt={"Crypto coin"} className={style.coin}/> */}
@@ -77,7 +77,7 @@ const Products = () => {
                 </div>
 
                 <div className={style.paycolumn}>
-                    <p><span className={style.monie}>Investrust</span></p>
+                    <span className={style.monie}>Investrust</span>
 
                     <p className={style.monie1}>Investrust is designed for local and cross border
                         payment for real estate investors. With a fully escrow-powered
@@ -173,7 +173,7 @@ const Products = () => {
                         </button>
                     </div>
                     <div className={style.paycolumn}>
-                        <p><span className={style.monie}>Shop</span></p>
+                        <span className={style.monie}>Shop</span>
                         <div className={style.shopFlexer}>
 
                             <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on

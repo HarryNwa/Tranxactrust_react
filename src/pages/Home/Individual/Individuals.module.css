@@ -197,10 +197,9 @@
 
   section .catcher{
     display: block;
-    margin-left: -45%;
-    width: 350px;
-    /* padding-left: 180px ; */
-    /* padding-top: 5%; */
+    margin-left: -65%;
+    /* width: 300px; */
+   
   
   }
 
@@ -226,7 +225,7 @@
     line-height: normal;
     text-align: left;
     letter-spacing: 1.3px;
-    width: 100%;
+    width: fit-content;
     display: flex;
     margin-top: 5%;
   }
@@ -237,7 +236,7 @@
   }
 
   section .barrier1 {
-    width: 350px;
+    width: fit-content;
     /* margin-right: 4%; */
     
   }

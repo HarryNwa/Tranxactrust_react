@@ -1257,9 +1257,12 @@
     /* margin-right: 40px */
     /* margin: 0 auto; */
   }
+    
   
   .paymentIntro{
     display: block;
+    margin-left: -5%;
+    /* width: 350px; */
     
   }
   
@@ -1272,7 +1275,8 @@
   section .paycolumn{
     /* padding-right: 20px; */
     display: block;
-    /* grid-template-columns: 1fr; */
+    margin-left: -5%;
+
   }
   
   section .unlock{

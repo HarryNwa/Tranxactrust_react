@@ -24,13 +24,15 @@ const Individuals = () => {
                 <img className={style.happy} src={buyer} alt="Happy buyer" />
 
                 <div className={style.barrier1}>
-                <div className={style.catcher}>
+                    <div className={style.catcher}>
 
-                    <p className={style.introHeader}>Let's save the day from fraud, shall we?
-                        <br />
-                        You<span className={style.span3}> get delivery</span> or <span className={style.span3}>Reverse Payment</span>
-                        when you pay into your vendor's Trustmonie escrow account.
-                    </p>
+                        <p className={style.introHeader}>Let's save the day from fraud, shall we?
+                            <br />
+                            You<span className={style.span3}> get delivery</span> or <span className={style.span3}>Reverse Payment </span>
+                            when you pay into your vendor's Trustmonie escrow account.
+                        </p>
+                    </div>
+                    <div className={style.catcher}>
 
                         <div className={style.ticker}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -143,9 +143,9 @@ section .ticker{
   }
 
   section .row4{
-    display: flex;
+    display: block;
     margin: 0 auto;
-    gap: 40px;
+    gap: 20px;
 
   }
 
@@ -210,7 +210,7 @@ section .span2{
 }
 
 section .puncher{
-  width: fit-content;
+  /* width: fit-content; */
   line-height: 40px;
 }
 
@@ -224,7 +224,7 @@ section .ticker{
   line-height: normal;
   text-align: left;
   letter-spacing: 1.3px;
-  width: 100%;
+  width: 350px;
   display: flex;
 }
 }
