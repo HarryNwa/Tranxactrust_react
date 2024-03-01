@@ -1253,7 +1253,7 @@
 
   .unlock1{
     display: block;
-    width: 100%;
+    width: fit-content;
     /* margin-right: 40px */
     /* margin: 0 auto; */
   }
@@ -1267,7 +1267,7 @@
   }
   
   section .pay{
-    width: 412px;
+    width: fit-content;
     /* display: none; */
   
   }
@@ -1275,7 +1275,7 @@
   section .paycolumn{
     /* padding-right: 20px; */
     display: block;
-    margin-left: -5%;
+    margin-left: -7%;
 
   }
   
@@ -1307,7 +1307,7 @@
   }
   
   section .trust1 {
-    width: 400px;
+    width: fit-content;
     color: var(--Gray-Colour-08, #6E7480);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -1319,9 +1319,14 @@
   
   }
   
-  
+  section .store{
+    width: 335px;
+    margin: 0 auto;
+
+  }
+
   section .trust2{
-    width: 100%;
+    width: fit-content;
     color: var(--Gray-Colour-08, #6E7480);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -1354,13 +1359,13 @@
     font-weight: 1000;
     line-height: normal;
     letter-spacing: 1.8px;
-    width: 500px;
+    width: fit-content;
     /* padding: 50px; */
     /* margin-top: 5%; */
   }
   
   section .monie1{
-    width: 350px;
+    width: fit-content;
     line-height: 30px;
     /* gap: 20px; */
     align-items: center;
@@ -1377,14 +1382,14 @@
   section .moreContainer{
     display: flex;
     align-items: center;
-    gap: 0px; 
+    /* gap: 0px;  */
     color: var(--Secondary-Colour-05, #0887ef);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal; 
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
   }
   
   .moreContainer:hover{
@@ -1399,7 +1404,7 @@
     line-height: normal;
     line-height: 40px; 
     /* padding: 10px; */
-    width: 350px;
+    width: fit-content;
     text-align: left;
   }
   
@@ -1415,7 +1420,7 @@
   
   section .update{
     align-items: center;
-    gap: 10px; 
+    /* gap: 10px;  */
     color: var(--Secondary-Colour-05, #0887ef);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
@@ -1434,7 +1439,7 @@
   }
   
   section .ticker{
-    gap: 20px;
+    /* gap: 20px; */
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -1443,7 +1448,7 @@
     line-height: normal;
     text-align: left;
     letter-spacing: 1.3px;
-    width: 300px;
+    width: fit-content;
     display: flex;
     flex-direction: row;
   }
@@ -1471,15 +1476,6 @@
   .account2:hover{
     gap: 3px;
   }
-  
-  section .listContainer {
-    display: grid;
-    grid-template-columns: repeat(1fr);
-    width: 100%;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 20px 20px;
-    flex-wrap: wrap; 
-  }
+
 	
 }

@@ -26,8 +26,8 @@ const Intro = () => {
 
     return (
 
-        <div>
-            <div className={style.wrapper}>
+        <div className={style.wrapper}>
+            {/* <div className={style.wrapper}> */}
                 <section className={style.welcome}>
                     <div className={style.unlock}>
                         {/* <div className={style.barrier}>
@@ -68,7 +68,7 @@ const Intro = () => {
 
                     </div>
                 </section>
-            </div>
+            {/* </div> */}
 
         </div>
     );

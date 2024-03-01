@@ -181,7 +181,7 @@
       display: block;
       background-color: rgb(16, 69, 214);
       border-radius: 18px;
-      width: 100%;
+      width: fit-content;
 
     }
     

@@ -51,12 +51,8 @@ const Signup = () => {
         console.log("a click event happened");
         e.preventDefault();
         try {
-
             // const apiUrl = `${process.env.REACT_APP_TRANXACTRUST}/users`;
-
-
             // const apiUrl = `${process.env.REACT_API_TRANXACTRUST}/users`;
-
 
             const apiUrl = `http://localhost:8770/api/users`;
             const userPhoneData = {

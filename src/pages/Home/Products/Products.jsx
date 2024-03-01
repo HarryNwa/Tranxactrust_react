@@ -25,7 +25,8 @@ const Products = () => {
 
     return (
         <section className={style.unlock1}>
-            <div className={style.barrier1}><p>Unlocking payment barriers
+            <div className={style.barrier1}>
+                <p>Unlocking payment barriers
                 <span className={style.span1}> for Businesses</span></p>
 
                 <p className={style.trust2}>Regardless of the size of your business,
@@ -174,14 +175,14 @@ const Products = () => {
                     </div>
                     <div className={style.paycolumn}>
                         <span className={style.monie}>Shop</span>
-                        <div className={style.shopFlexer}>
+                        {/* <div className={style.shopFlexer}> */}
 
                             <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on
                                 Tranxactrust. Open your one-stop online Shop on our marketplace
                                 and start selling to new customers globally.
                             </p>
                             <img src={shopKeeper} className={style.store} alt="Store Keeper" />
-                        </div>
+                        {/* </div> */}
 
                         <Link to={'/shop'} className={style.moreContainer} > Go Shopping
 

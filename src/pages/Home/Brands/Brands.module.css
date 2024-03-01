@@ -341,7 +341,7 @@ section .mist {
 
     .brands {
         display: block;
-        margin: 5px;
+        /* margin: 5px; */
     }
     
     section .brandPara {
@@ -352,7 +352,7 @@ section .mist {
         line-height: normal;
         line-height: 40px;
         text-align: center;
-        width: 100%;
+        width: fit-content;
         display: block;
     
     }
@@ -364,14 +364,14 @@ section .mist {
         font-weight: 1000;
         line-height: normal;
         letter-spacing: 1.8px;
-        width: 100%;
+        width: fit-content;
         font-size: 30px;
     }
     
     .brand {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 350px;
+        width: fit-content;
     }
     
     .landwey {
@@ -389,7 +389,7 @@ section .mist {
     section .fuse {
         width: 85px;
         height: 70px;
-        padding: 0.5px;
+        /* padding: 0.5px; */
     
     }
     

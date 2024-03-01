@@ -163,8 +163,8 @@ footer {
     footer {
       background-color: #c8ddf4;
       color: rgb(6, 6, 6);
-      padding: 20px 0;
-      width: 100%;
+      /* padding: 20px; */
+      width: fit-content;
       margin-top: 5%;
     }
   
@@ -247,13 +247,6 @@ footer {
       justify-content: center;
       align-content: center;
       position: relative;
-    }
-  
-    section .button {
-      display: flex;
-      float: left;
-      width: 100%;
-      gap: 20px;
     }
     
     section .account{

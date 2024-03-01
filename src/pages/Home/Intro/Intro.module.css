@@ -504,7 +504,8 @@ section .contact:hover {
 @media screen and (max-width: 728px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
   .welcome {
-    padding: 0px 5px 0px 15px;
+    /* padding: 0px px 0px 15px; */
+    width: fit-content;
   }
   section .gif {
     display: none;
@@ -517,7 +518,7 @@ section .contact:hover {
     font-weight: 910;
     line-height: normal;
     letter-spacing: 1.8px;
-    width: 100%;
+    width: fit-content;
   }
   
   section .span {
@@ -527,12 +528,12 @@ section .contact:hover {
     font-weight: 910;
     line-height: normal;
     letter-spacing: 1.8px;
-    width: 100%;
+    width: fit-content;
     font-size: 36px;
   }
   
   section .trust {
-    width: 100%;
+    width: fit-content;
     color: var(--Gray-Colour-08, #6E7480);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -546,7 +547,7 @@ section .contact:hover {
   section .button {
     display: flex;
     float: left;
-    width: 100%;
+    width: fit-content;
     gap: 5px;
     padding-top: 5%;
   }

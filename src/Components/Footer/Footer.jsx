@@ -90,7 +90,7 @@ const Footer = () => {
                         <p className={style.footercontent}>Onboarding APIs</p>
                         <p className={style.footercontent}>Real Estate payment broker</p>
                     </div>
-                    flex
+                    
                     <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Resources</p>

@@ -1,3 +1,7 @@
+/* .intro{
+  display: block;
+} */
+
 section .choose{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -145,31 +149,31 @@ section .ticker{
   section .row4{
     display: block;
     margin: 0 auto;
-    gap: 20px;
+    /* gap: 20px; */
 
   }
 
   section .button {
   display: flex;
   float: left;
-  width: 100%;
-  gap: 20px;
+  width: fit-content;
+  /* gap: 20px; */
 }
 
 section .account {
   border: 5px solid #0887ef;
   background-color: #0887ef;
   border-radius: 28px;
-  padding: 4px 8px;
+  /* padding: 4px 8px; */
   color: var(--Gray-Colour-01, #FCFCFD);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 15.5px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
   line-height: normal;
   letter-spacing: 0.3px;
-  width: 190px;
+  width: 155px;
 
 }
 
@@ -210,7 +214,7 @@ section .span2{
 }
 
 section .puncher{
-  /* width: fit-content; */
+  width: fit-content;
   line-height: 40px;
 }
 
@@ -224,7 +228,7 @@ section .ticker{
   line-height: normal;
   text-align: left;
   letter-spacing: 1.3px;
-  width: 350px;
+  width: fit-content;
   display: flex;
 }
 }

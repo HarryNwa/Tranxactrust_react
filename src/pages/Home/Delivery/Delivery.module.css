@@ -254,8 +254,8 @@ section .edp{
     font-weight: 300;
     line-height: 30px; 
     letter-spacing: 1.3px;
-    width: 350px;
-    padding: 25px 25px;
+    width: fit-content;
+    /* padding: 25px 25px; */
   
   }
   
@@ -366,7 +366,7 @@ section .edp{
     background: var(--Neutral-white, #f3f5f9);
     box-shadow: 0px 5px 20px 0px rgba(139, 142, 149, 0.15);
     margin-left: 2px;
-    width: 350px;
+    width: fit-content;
     
   }
   
@@ -397,7 +397,7 @@ section .edp{
   }
   
   section .rectangle{
-    width: calc(100%);
+    width: fit-content;
   
   }
   
@@ -440,18 +440,19 @@ section .edp{
   
   section .delivery{
     display: flex;
-    gap: 85px;
+    width: fit-content;
+    /* gap: 125px; */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding: 20px;
+    /* padding: 20px; */
     
   }
   
   section .edp{
-    width: 200px;
+    width: 175px;
   
   }
 }

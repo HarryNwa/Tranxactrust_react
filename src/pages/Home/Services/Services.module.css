@@ -1091,7 +1091,7 @@ section .moreContainer{
         margin: 0 auto;
     }
 
-
+/* 
     .index-individuals {
         display: block;
     }
@@ -1101,7 +1101,7 @@ section .moreContainer{
         padding-left: 150px;
         padding-right: 100px;
 
-    }
+    } */
 
     section .service {
         display: block;
@@ -1119,7 +1119,7 @@ section .moreContainer{
         margin-top: 15%;
         display: grid;
         grid-template-columns: 1fr;
-        width: 100%;
+        width: fit-content;
         /* align-items: flex-start;
         align-content: flex-start;
         gap: 20px 20px; */
@@ -1172,7 +1172,7 @@ section .moreContainer{
 
     section .link {
         display: flex;
-        gap: 155px;
+        gap: 135px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1194,7 +1194,7 @@ section .moreContainer{
 
     section .escrow {
         display: flex;
-        gap: 141px;
+        gap: 120px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1206,7 +1206,7 @@ section .moreContainer{
 
     section .reverse {
         display: flex;
-        gap: 119px;
+        gap: 98px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1219,7 +1219,7 @@ section .moreContainer{
 
     section .crypto {
         display: flex;
-        gap: 132px;
+        gap: 112px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1230,7 +1230,7 @@ section .moreContainer{
 
     section .support {
         display: flex;
-        gap: 164px;
+        gap: 144px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1241,7 +1241,7 @@ section .moreContainer{
 
     section .delivery {
         display: flex;
-        gap: 95px;
+        gap: 75px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1267,7 +1267,7 @@ section .moreContainer{
         font-weight: 300;
         line-height: 30px;
         letter-spacing: 1.3px;
-        width: 350px;
+        width: fit-content;
         padding: 25px 25px;
 
     }
@@ -1292,7 +1292,7 @@ section .moreContainer{
         font-weight: 600;
         line-height: normal; 
         padding: 0px 40px;
-        width: 100%;
+        width: fit-content;
         }
         
         .moreContainer:hover{
