@@ -1,4 +1,4 @@
-.intro{
+main{
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -36,7 +36,8 @@
   
   .logo{
     margin: 0 auto;
-    height: 55px;
+    width: 55px;
+    
   }
     
   .signup{
@@ -60,9 +61,32 @@
       color: var(--Gray-Colour-01,  #068bf7);
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-style: normal;
+      font-size: 20px;
       font-weight: 800;
       line-height: normal;
       letter-spacing: 0.3px; 
       transition: 0.2s ease-in;
+      /* padding-top: 5%; */
+      margin-top: -19%;
+
+  }
+
+  @media screen and (max-width: 728px){
+    main{
+      width: 100%;
+      overflow: hidden;
+      /* position: relative; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background: rgb(247, 250, 253); 
+      box-sizing: border-box;
+    }
+    .login{
+      display: none;
+    }
+    .signup{
+      display: none;
+    }
   }
   

@@ -165,10 +165,11 @@
 
   @media screen and (max-width: 728px) {
 
-  .forIndividuals{
+  section{
     display: block;
     background: rgb(242, 243, 250) -96.294px 0px / 147.798% 100% no-repeat; 
     align-items: center;
+    width: 100%;
   }
   
   section .individauls{
@@ -211,7 +212,6 @@
     font-size: 25px;
     font-style: normal;
     /* font-weight: 700; */
-    line-height: normal;
     line-height: 40px; 
     /* padding: 10px; */
     width: fit-content;

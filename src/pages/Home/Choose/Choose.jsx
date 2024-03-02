@@ -8,7 +8,7 @@ import style from "./Choose.module.css"
 const Choose = () => {
     return (
         <section className={style.intro}>
-            <div>
+            {/* <div> */}
                 <p className={style.choose}>Why choose <span className={style.span2}>
                     Tranxactrust</span> for your business?
                 </p>
@@ -126,7 +126,7 @@ const Choose = () => {
 
                     <img className={style.img} src={image} alt="image" />
                 </div>
-            </div>
+            {/* </div> */}
         </section>
     );
 }

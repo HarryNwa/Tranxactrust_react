@@ -10,7 +10,6 @@ import style from "./Brands.module.css"
 const Brands = () => {
 
     return (
-        <div>
         
         <section className={style.brands}>
             
@@ -29,7 +28,6 @@ const Brands = () => {
                 </div>
             {/* </div> */}
         </section>
-        </div>
     );
 
 };

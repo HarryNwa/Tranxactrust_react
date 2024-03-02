@@ -8,6 +8,7 @@ import Investrust from "../Products/Investrust";
 import { DashBoard } from "../pages/Dashboard/DashBoard";
 import { Store } from "../pages/Store/Store";
 import Shop from "../Products/Shop";
+import GhostBtn from "../Reuseables/Buttons/GhostBtn/GhostBtn";
 
 export const ROUTES = [
     {

@@ -26,11 +26,11 @@ const Individuals = () => {
                 <div className={style.barrier1}>
                     <div className={style.catcher}>
 
-                        <p className={style.introHeader}>
+                        {/* <p className={style.introHeader}> */}
                             Let's save the day from fraud, shall we? 
                             You<span className={style.span3}> get delivery</span> or <span className={style.span3}>Reverse Payment </span>
                             when you pay into your vendor's Trustmonie escrow account.
-                        </p>
+                        {/* </p> */}
                     </div>
                     <div className={style.catcher}>
 
