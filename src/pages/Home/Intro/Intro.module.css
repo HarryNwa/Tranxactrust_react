@@ -1,7 +1,7 @@
 .welcome {
   width: 100%;
   overflow: hidden;
-  /* position: relative; */
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -505,7 +505,7 @@ section .contact:hover {
 
 @media screen and (max-width: 728px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
-  section{
+  .welcome{
     width: 100%;
     /* margin-left: 5%; */
     /* padding: 0px 5px 0px 15px; */
