@@ -339,8 +339,8 @@ section .mist {
 @media screen and (max-width: 728px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
 
-    section {
-        display: block;
+    .brands {
+        /* display: block; */
         width: 100%;
 
     }
@@ -374,7 +374,7 @@ section .mist {
         display: grid;
         grid-template-columns: 1fr 1fr;
         width: fit-content;
-        padding-right: 6%;
+        /* padding-right: 6%; */
 
     }
     

@@ -81,7 +81,7 @@ const NavigationBar = () => {
                 alt="Tranxactrust logo"
                 // className={style.logo}
                 // height={200}
-                width={150}
+                width={177}
               />
             </Link>
 
