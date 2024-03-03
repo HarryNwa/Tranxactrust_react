@@ -9,13 +9,11 @@ const Footer = () => {
 
             <div className={style.footercon}>
                 <div className={style.row1}>
-                    <div className={style.footerBackgroundWidth}>
-                        <div className={style.xlogo1}>
-                            {/* <img className="xlogo3" src="Tranxact logoo.png" /> */}
-                            <img className={style.xlogo3} src={logo} alt="Tranxactrust logo" />
-                            {/* <img  className="xlogo3" src="Tranxactrust Xlogo.png" />
+                    <div className={style.xlogo1}>
+                        {/* <img className="xlogo3" src="Tranxact logoo.png" /> */}
+                        <img className={style.xlogo3} src={logo} alt="Tranxactrust logo" />
+                        {/* <img  className="xlogo3" src="Tranxactrust Xlogo.png" />
                             <img className="xlogo2" src="Tranxactrust.png" /> */}
-                        </div>
                     </div>
                     <div className={style.foot}>
                         <div className={style.footerheader}>
@@ -42,7 +40,7 @@ const Footer = () => {
                         <p className={style.footercontent}>Payment Gateway</p>
                         <p className={style.footercontent}>QR Codes</p>
                     </div>
-                   
+
                 </div>
 
                 <div className={style.row1}>
@@ -90,7 +88,7 @@ const Footer = () => {
                         <p className={style.footercontent}>Onboarding APIs</p>
                         <p className={style.footercontent}>Real Estate payment broker</p>
                     </div>
-                    
+
                     <div className={style.foot}>
                         <div className={style.footerheader}>
                             <p>Resources</p>
@@ -165,14 +163,15 @@ const Footer = () => {
                             </svg>
 
                         </div>
-                        <div className={style.copyright}>
-                        <svg width="300" height="1" viewBox="0 0 300 1" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path opacity="0.3" d="M1 0.5H1285" stroke="#6E7480" strokeLinecap="round" />
-                        </svg>
-                        <p>&copy; Tranxactrust 2024, All rights reserved<br /></p>
+                        
                     </div>
-                    </div>
+                    <div className={style.copyright}>
+                            <svg width="300" height="1" viewBox="0 0 300 1" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path opacity="0.3" d="M1 0.5H1285" stroke="#6E7480" strokeLinecap="round" />
+                            </svg>
+                            <p>&copy; Tranxactrust 2024, All rights reserved<br /></p>
+                        </div>
                 </div>
             </div>
         </footer>

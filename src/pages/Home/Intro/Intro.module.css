@@ -1,7 +1,7 @@
-.wrapper {
+.welcome {
   width: 100%;
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,21 +9,13 @@
   box-sizing: border-box;
 }
 
-section {
+/* section {
   display: flex;
   padding: 30px;
   justify-content: center;
   margin: 0 auto;
   
-  /* width: 100%;
-  overflow: hidden; */
-  /* position: relative; */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: rgb(247, 250, 253);
-  box-sizing: border-box; */
-}
+} */
 
 /* .welcome {
   display: flex;
