@@ -339,13 +339,17 @@ section .mist {
 @media screen and (max-width: 728px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
 
-    *{
+    /* *{
         padding: 0;
-    }
+    } */
+
     section {
         display: block;
         width: 100%;
+        
         /* margin: 5px; */
+        /* margin-right: -5%; */
+
     }
     
     section .brandPara {
@@ -356,8 +360,9 @@ section .mist {
         line-height: normal;
         line-height: 40px;
         text-align: center;
-        /* width: fit-content; */
-        display: block;
+        width: fit-content;
+        padding-right: 4%;
+
     
     }
     
@@ -368,24 +373,26 @@ section .mist {
         font-weight: 1000;
         line-height: normal;
         letter-spacing: 1.8px;
-        /* width: fit-content; */
+        width: fit-content;
         font-size: 30px;
     }
     
     .brand {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* width: fit-content; */
+        width: fit-content;
+        padding-right: 6%;
+
     }
     
     .landwey {
-        width: 85px;
+        width: 80px;
         height: 70px;
     
     }
     
     section .adron {
-        width: 85px;
+        width: 80px;
         height: 70px;
     
     }
@@ -399,7 +406,7 @@ section .mist {
     
     
     section .mist {
-        width: 540px;
+        width: 535px;
         height: 70px;
     
     } 

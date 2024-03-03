@@ -1,4 +1,4 @@
-.index {
+section {
     display: block;
     margin: 0 auto;
 }
@@ -1091,17 +1091,6 @@ section .moreContainer{
         margin: 0 auto;
     }
 
-/* 
-    .index-individuals {
-        display: block;
-    }
-
-    section .index-delivery {
-        display: flex;
-        padding-left: 150px;
-        padding-right: 100px;
-
-    } */
 
     section .service {
         display: block;

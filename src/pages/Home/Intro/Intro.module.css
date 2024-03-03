@@ -515,8 +515,8 @@ section .contact:hover {
 /* @media(min-width: 390px) and (max-width: 539px){ */
   section{
     width: 100%;
-    margin: 0 auto;
-    padding: 0px 5px 0px 15px;
+    /* margin-left: 5%; */
+    /* padding: 0px 5px 0px 15px; */
 
   }
  
@@ -532,6 +532,7 @@ section .contact:hover {
     line-height: normal;
     letter-spacing: 1.5px;
     width: fit-content;
+    padding-left: 2%;
   }
   
   section .span {
@@ -555,6 +556,8 @@ section .contact:hover {
     line-height: 30px;
     letter-spacing: 1.8px;
     padding-top: 7%;
+    padding-left: 2%;
+
   }
   
   section .button {
@@ -563,6 +566,8 @@ section .contact:hover {
     width: fit-content;
     gap: 5px;
     padding-top: 5%;
+    padding-left: 2%;
+
   }
   
   section .account {

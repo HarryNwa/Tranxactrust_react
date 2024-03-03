@@ -124,11 +124,11 @@ const NavigationBar = () => {
 
         </div>
 
-        <section className="flex items-center gap-4">
+        {/* <section className="flex items-center gap-4"> */}
           <FiMenu onClick={() => setSideMenu(true)}
             className="text-3xl cursor-pointer lg:hidden" />
 
-        </section>
+        {/* </section> */}
         {isLogin && (
           <div className={style.login}>
             <div className={style.login}>
