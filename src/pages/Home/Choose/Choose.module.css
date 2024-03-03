@@ -1,7 +1,7 @@
 .intro{
   display: block;
   background: rgba(235, 241, 255, 0.5); 
-  margin-left: 0 -20px;
+  /* margin-left: 0 -20px; */
   /* margin-right: -20px;  */
   box-sizing: border-box;
   width: 100%;
@@ -24,7 +24,7 @@ section .choose{
 
   section .row4{
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
     gap: 40px;
 
   }

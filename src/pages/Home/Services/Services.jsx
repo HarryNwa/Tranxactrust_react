@@ -6,7 +6,9 @@ const Services = () => {
     return (
 
         <section className={style.index}>
+            {/* <div>
         <p className={style.service}>Our Services</p>
+        </div> */}
     
         <div className={style.listContainer}>
             <div className={style.row1}>

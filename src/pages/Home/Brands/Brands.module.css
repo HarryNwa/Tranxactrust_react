@@ -339,16 +339,9 @@ section .mist {
 @media screen and (max-width: 728px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
 
-    /* *{
-        padding: 0;
-    } */
-
     section {
         display: block;
         width: 100%;
-        
-        /* margin: 5px; */
-        /* margin-right: -5%; */
 
     }
     
