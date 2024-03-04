@@ -116,6 +116,9 @@ const NavigationBar = () => {
                 className="font-bold">{data.label}</Link>
 
             ))}
+            {/* {loginLink.map((data, index) => (
+            <GhostBtn key={index} styler={style.login} btn={data.label} />
+          ))} */}
 
             <GhostBtn styler={style.login} btn={"Log In"} />
             <FilledBtn style={style.signup} btn={"Sign Up"} />

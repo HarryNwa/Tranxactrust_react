@@ -188,7 +188,7 @@ const Signup = () => {
                             Phone Number
                             <PhoneInput
                                 country={'ng'}
-                                className={style.collector}
+                                // className={style.collector}
                                 name="phone"
                                 placeholder="Phone number"
                                 inputProps={{
@@ -196,6 +196,9 @@ const Signup = () => {
                                 }}
                                 value={phoneNumber}
                                 onChange={handlePhoneChange}
+                                style={{ width: '300px', fontSize: '16px' }}
+                                inputStyle={{ border: '1px solid #ccc', width: '400px', height: '50px', borderRadius: '5px' }}
+                                dropdownStyle={{ border: '1px solid #ccc', borderTop: 'none', borderRadius: '0 0 5px 5px', maxHeight: '200px', overflowY: 'auto', flexDirection: 'column' }}
                             />
                         </label>
                         {!valid && <p className={style.warning}>Please enter a valid phone number.</p>}
@@ -250,7 +253,7 @@ const Signup = () => {
                     </p>
                     <p className={style.agreement}>To learn more about how Tranxactrust collects,
                         uses and discloses your personal data, please read our
-                        <Link to={'/'} className={style.policy} >Privacy Policy.</Link></p>
+                        <Link to={'/'} className={style.policy} > Privacy Policy.</Link></p>
                 </div>
             </div>
             <Support />
