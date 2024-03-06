@@ -16,8 +16,8 @@ const GetStarted = () => {
     }
     return (
         <section className={style.getStarted}>
-            {/* <div className={style.ready}>Ready to get started?</div> */}
-            <div className={style.ready}>Join our Waitlist</div>
+            <div className={style.ready}>Ready to get started?</div>
+            <div className={style.waitlist}>Join our Waitlist</div>
 
             <div className={style.getAccess}>
                 {/* <p className={style.getAccess}>Sign up now and activate trust on your business brand
@@ -87,7 +87,7 @@ const GetStarted = () => {
                         id="email"
                         className={style.email}
                         name="email"
-                        placeholder="submit your email"
+                        placeholder="submit your email here"
                         required
                     />
                     <svg
