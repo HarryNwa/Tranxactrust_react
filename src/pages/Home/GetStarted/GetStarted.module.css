@@ -3,6 +3,7 @@
     background-color: rgb(16, 69, 214);
     border-radius: 18px;
     width: 800px;
+    margin-top: 5%;
   }
   
   .getStarted:hover{
@@ -78,16 +79,19 @@
     width: 500px; 
     border-radius: 18px;
     border: 2px solid #ccc;
-    /* color: var(--Gray-Colour-01,  #d0d3d7); */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     letter-spacing: 0.3px; 
-    /* color: #f3f5f9; */
     margin-top: 5%;
+    padding-right: 30px;
     
+  }
+
+  .inputContainer {
+    position: relative;
   }
   
   section input {
@@ -97,6 +101,15 @@
     background-color: transparent;
   }
   
+  .joinIcon{
+    height: 1.8rem;
+    width: 1.8rem;
+    position: absolute;
+    top: 40%;
+    right: 18%; 
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
   
   section .get1{
     display: flex;
