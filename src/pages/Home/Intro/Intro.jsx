@@ -37,10 +37,14 @@ const Intro = () => {
                     for all payments
                 </div>
 
-                <p className={style.trust}>Accept fiat and crypto payments from anywhere.
-                    Pay vendors with a fiat or crypto account. Retain control over payouts.
+                <p className={style.trust}>Accept payments from anywhere.
+                    Pay vendors with a direct or escrow account. Retain control over payouts.
                     Never let trust cost you the deal.
                 </p>
+                {/* <p className={style.trust}>Accept fiat and crypto payments from anywhere.
+                    Pay vendors with a fiat or crypto account. Retain control over payouts.
+                    Never let trust cost you the deal.
+                </p> */}
 
                 <ul>
                     <li className={style.button}>

@@ -208,6 +208,8 @@ section .delivery{
 
 section .edp{
   width: 200px;
+  text-decoration: none;
+  text-decoration-skip-ink: none;
 
 }
 

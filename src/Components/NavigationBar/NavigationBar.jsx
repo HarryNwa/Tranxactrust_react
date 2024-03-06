@@ -34,8 +34,12 @@ const NavigationBar = () => {
       label: "BankingPlus",
       link: "/"
     },
-    {
-      label: "Blockchain",
+    // {
+    //   label: "Blockchain",
+    //   link: "/"
+    // },
+     {
+      label: "Payments",
       link: "/"
     },
     {
@@ -43,7 +47,7 @@ const NavigationBar = () => {
       link: "/"
     },
     {
-      label: "BankingPlus",
+      label: "Resources",
       link: "/"
     },
     {

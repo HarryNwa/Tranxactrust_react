@@ -6,7 +6,7 @@ const Investrust = () => {
 
     return (
         <IntroSect text={"Win client trust,"} imgage={house} text2={"fuel your growth"} 
-        text3={"Never let trust cost you the BIG deal. Win more with Investrust. Collect payments in fiat or crypto from anywhere. Pay real estate agents from anywhere and retain control over payouts."} btn={"Sign Up Now"} btn2={"Contact sales"}/>
+        text3={"Never let trust cost you the BIG deal. Win more with Investrust. Collect direct and escrow payments in your two-in-one business account from anywhere. Pay real estate agents from anywhere and retain control over payouts."} btn={"Sign Up Now"} btn2={"Contact sales"}/>
         // <div>
         //     <div className={style.wrapper}>
         //         <section className={style.welcome}>

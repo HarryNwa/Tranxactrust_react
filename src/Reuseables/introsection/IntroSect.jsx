@@ -38,9 +38,7 @@ const IntroSect = ({ text, text2, imgage, text3, btn, btn2 }) => {
 
                         <ul>
                             <li className={style.button}>
-                                <SignupBtn btn={"Sign Up Now"}/>
-                                <GhostBtn btn={"Contact sales"}/>
-                                {/* <Link to={'/signup'} >
+                                <Link to={'/signup'} >
                                     <button className={style.account}>{btn}</button>
                                 </Link>
                                 <Link to={'/signup'} >
@@ -50,7 +48,7 @@ const IntroSect = ({ text, text2, imgage, text3, btn, btn2 }) => {
                                             <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#068bf7" />
                                         </svg>
                                     </div>
-                                </Link> */}
+                                </Link>
                             </li>
                         </ul>
                     </div>

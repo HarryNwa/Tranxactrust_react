@@ -54,18 +54,34 @@ const Products = () => {
                     </Link>
 
                     <img className={style.pay} src={photo} alt="payment image" />
+                    <div className={style.paycolumn}>
+                        <span className={style.monie}>Shop</span>
+                        {/* <div className={style.shopFlexer}> */}
 
-                    <span className={style.monie}>TrxtPay</span>
-                    {/* <div className={style.shopFlexer}> */}
+                            <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on
+                                Tranxactrust. Open your one-stop online Shop on our marketplace
+                                and start selling to new customers globally.
+                            </p>
+                            <img src={shopKeeper} className={style.store} alt="Store Keeper" />
+                        {/* </div> */}
 
-                    {/* <img src={coin} alt={"Crypto coin"} className={style.coin}/> */}
+                        <Link to={'/shop'} className={style.moreContainer} > Go Shopping
+
+                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
+                                <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
+                            </svg>
+                        </Link>
+                    </div>
+
+                    {/* <span className={style.monie}>TrxtPay</span>
+
                     <p className={style.monie1}>Stay ahead of others and start accepting crypto payment.
                         Convert fiat to Ethereum, Bitcoin and USDT. TrxtPay enables gasless
                         transactions for merchant and individuals.You also get direct and
                         escrow crypto wallets in one <Link to={'/trxtpay'} className="update" > Sign Up. </Link>
 
                     </p>
-                    {/* </div> */}
 
                     <Link to={'/trxtpay'} className={style.moreContainer} > Sign Up Now
 
@@ -73,7 +89,7 @@ const Products = () => {
                             <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
                             <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
                         </svg>
-                    </Link>
+                    </Link> */}
 
                 </div>
 
@@ -173,25 +189,7 @@ const Products = () => {
                             </svg>
                         </button>
                     </div>
-                    <div className={style.paycolumn}>
-                        <span className={style.monie}>Shop</span>
-                        {/* <div className={style.shopFlexer}> */}
-
-                            <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on
-                                Tranxactrust. Open your one-stop online Shop on our marketplace
-                                and start selling to new customers globally.
-                            </p>
-                            <img src={shopKeeper} className={style.store} alt="Store Keeper" />
-                        {/* </div> */}
-
-                        <Link to={'/shop'} className={style.moreContainer} > Go Shopping
-
-                            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.34788 8.75L7.29163 10.8062L13.9708 17.5L7.29163 24.1938L9.34788 26.25L18.0979 17.5L9.34788 8.75Z" fill="#0887ef" />
-                                <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
-                            </svg>
-                        </Link>
-                    </div>
+                 
                 </div>
 
 

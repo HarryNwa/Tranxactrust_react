@@ -20,7 +20,7 @@ const Footer = () => {
                             <p>Products</p>
                         </div>
                         <p className={style.footercontent}>PayTrusty -- TrustMonie (escrow suite)</p>
-                        <p className={style.footercontent}>TrxtPay (crypto with escrow)</p>
+                        {/* <p className={style.footercontent}>TrxtPay (crypto with escrow)</p> */}
                         <p className={style.footercontent}>Voucher</p>
                         <p className={style.footercontent}>Investrust</p>
                         <p className={style.footercontent}>Reverse Payment</p>
