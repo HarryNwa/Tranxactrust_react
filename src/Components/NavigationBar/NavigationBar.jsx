@@ -76,7 +76,7 @@ const NavigationBar = () => {
     <main  className="flex justify-betweenitems-center lg:px-44">
       <nav>
 
-        <div className="flex items-center gap-14">
+        <div className="flex items-center gap-4">
           <section className="flex items-center gap-4">
             <Link to="/">
               <img
