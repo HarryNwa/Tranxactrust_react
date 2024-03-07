@@ -1,6 +1,6 @@
 .loginBox {
     margin: 0 auto;
-    height: calc(100vh - 100px);
+    height: 100%;
     flex-shrink: 0;
     display: block;
     border-radius: 20px;
