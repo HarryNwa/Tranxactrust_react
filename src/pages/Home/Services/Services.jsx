@@ -16,7 +16,7 @@ const Services = () => {
 
     return (
 
-        <section className="container mx-auto text-center flex flex-col">
+        <section className="container mx-auto flex flex-col">
             <p className={style.service}>Our Services</p>
 
             <div className={style.listContainer}>
