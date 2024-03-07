@@ -115,9 +115,6 @@ const GetStarted = () => {
                     </svg>
                 </div>
 
-
-
-
                 <div className={style.get}>
                     <p type="button" className={style.start} onClick={getWaitList}>Get
                         Started</p>

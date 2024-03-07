@@ -7,7 +7,10 @@
   }
   
   .getStarted:hover{
-    background-color: rgb(255, 89, 0);
+    background-color: r
+
+
+    gb(255, 89, 0);
   }
   
   section .ready{
@@ -284,14 +287,12 @@
       width: fit-content; 
       border-radius: 18px;
       border: 2px solid #ccc;
-      /* color: var(--Gray-Colour-01,  #d0d3d7); */
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 20px;
       font-style: normal;
       font-weight: 800;
       line-height: normal;
       letter-spacing: 0.3px; 
-      /* color: #f3f5f9; */
       margin-top: 5%;
       
     }
@@ -322,6 +323,17 @@
       gap: 20px;
       column-gap: 10px;
       color: wheat;
+    }
+
+    .joinIcon{
+      height: 1.8rem;
+      width: 1.8rem;
+      position: absolute;
+      top: 20%;
+      right: 5%; 
+      transform: translateY(-50%);
+      cursor: pointer;
+
     }
     
     section .start{
