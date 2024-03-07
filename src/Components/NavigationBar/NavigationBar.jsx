@@ -73,10 +73,10 @@ const NavigationBar = () => {
   ]
 
   return (
-    <main  className="flex justify-betweenitems-center lg:px-44">
+    <main  className="flex justify-between items-center lg:px-44">
       <nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex justify-between items-center gap-4">
           <section className="flex items-center gap-4">
             <Link to="/">
               <img
