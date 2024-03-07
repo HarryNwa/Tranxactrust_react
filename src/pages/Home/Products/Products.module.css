@@ -191,7 +191,7 @@
   }
   
   section .puncher{
-    width: fit-content;
+    width: 550px;
     line-height: 50px;
   }
   
