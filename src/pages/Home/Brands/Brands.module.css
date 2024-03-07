@@ -13,6 +13,7 @@ section .brandPara {
     text-align: center;
     width: 100%;
     display: block;
+    
 
 }
 
@@ -33,6 +34,8 @@ section .brandSpan {
     justify-content: center;
     padding: 12px;
     gap: 50px;
+    /* flex-direction: column; */
+    /* grid-auto-flow: row; */
 }
 
 .landwey {

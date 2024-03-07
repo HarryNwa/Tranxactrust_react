@@ -22,7 +22,7 @@ const Delivery = () => {
     
 
     return (
-        <section className={style.deliverySection}>
+        <section className="container mx-auto text-center flex flex-col">
             <div className={style.linkContainer2}>
                 <div className={style.barrier1}><p>Synchronizing payment and delivery
                     <span className={style.span1}> for consumers & merchants</span></p>

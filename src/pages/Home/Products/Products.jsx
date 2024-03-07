@@ -24,7 +24,7 @@ const Products = () => {
     }
 
     return (
-        <section className={style.unlock1}>
+        <section className="container mx-auto flex flex-col">
             <div className={style.barrier1}>
                 <p>Unlocking payment barriers
                 <span className={style.span1}> for Businesses</span></p>
