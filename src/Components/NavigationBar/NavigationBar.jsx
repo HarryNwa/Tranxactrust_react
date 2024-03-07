@@ -73,8 +73,8 @@ const NavigationBar = () => {
   ]
 
   return (
-    <main  className="flex justify-between px-8 items-center py-6 lg:px-44">
-      <nav  className="flex justify-between px-8 items-center ">
+    <main  className="flex justify-betweenitems-center lg:px-44">
+      <nav>
 
         <div className="flex items-center gap-14">
           <section className="flex items-center gap-4">
