@@ -11,7 +11,7 @@
     margin: 0 auto;
     width: fit-content;
     justify-content: space-between;
-    gap: 50px;
+    gap: 70px;
     /* padding-left: 150px; */
     /* padding-right: 200px; */
   }
@@ -123,7 +123,7 @@
   }
 
   section .happy{
-    width: 650px;
+    width: 450px;
     height: 100%;
     border-radius: 10px; 
     flex-shrink: 0; 
