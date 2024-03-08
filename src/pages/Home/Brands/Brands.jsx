@@ -8,7 +8,8 @@ import style from "./Brands.module.css";
 
 const Brands = () => {
     return (
-        <section className="container mx-auto h-full w-screen text-center flex flex-col">
+        <section className="container mx-auto flex flex-col">
+            
             <p className={style.brandPara}>
                 Your favourite brands trust{" "}
                 <span className={style.brandSpan}>Tranxactrust.</span>
