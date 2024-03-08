@@ -12,14 +12,14 @@ import Products from "../Home/Products/Products";
 const About = () => {
     return(
     <>
-    <GetStarted />
+    {/* <GetStarted />
     <Individuals />
     <Delivery />
     <Intro />
     <Choose />
     <Services />
     <Brands />
-    <Products />
+    <Products /> */}
 
 </>
     )

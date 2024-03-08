@@ -1,17 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import gif from "../../../images/mvp2.gif";
-import Signup from "../../Signup/Signup";
 import { useNavigate } from "react-router-dom";
-import Brands from "../Brands/Brands";
-import Products from "../Products/Products";
-import Services from "../Services/Services";
-import Delivery from "../Delivery/Delivery";
-import Individuals from "../Individual/Individuals";
-import Choose from "../Choose/Choose";
-import GetStarted from "../GetStarted/GetStarted";
-import Footer from "../../../Components/Footer/Footer";
-import Login from "../../Login/Login";
 import style from "./Intro.module.css"
 
 const Intro = () => {

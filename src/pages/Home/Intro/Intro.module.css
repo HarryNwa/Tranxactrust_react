@@ -95,7 +95,7 @@ section .contact {
   letter-spacing: 1.3px;
   gap: 0px;
   /* position: relative; */
-  top: 23%;
+  padding-top: 5%;
   justify-content: center;
   align-items: center;
   
