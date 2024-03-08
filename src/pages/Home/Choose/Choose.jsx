@@ -7,7 +7,7 @@ import style from "./Choose.module.css"
 
 const Choose = () => {
     return (
-        <section className="container mx-auto text-center flex flex-col">
+        <section className="container mx-auto h-full w-screen text-center flex flex-col">
             {/* <div> */}
                 <div className={style.choose}>Why choose <span className={style.span2}>
                     Tranxactrust</span> for your business?

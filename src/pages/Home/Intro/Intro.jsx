@@ -25,7 +25,7 @@ const Intro = () => {
     };
 
     return (
-        <section className="container mx-auto">
+        <section className="container mx-auto h-full w-screen">
             <div className={style.unlock}>
                 {/* <div className={style.barrier}>
                             <span className={style.span}>Win customer trust, </span>

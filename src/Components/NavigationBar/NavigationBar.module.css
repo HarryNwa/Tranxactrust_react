@@ -71,7 +71,13 @@ main{
 
   }
 
-  @media screen and (max-width: 728px){
+  /* @media only screen and (max-width: 56.25em){
+    nav {
+      padding: 0rem 0 0;
+      }
+  } */
+
+  @media only screen and (max-width: 728px){
     main{
       width: 100%;
       overflow: hidden;
