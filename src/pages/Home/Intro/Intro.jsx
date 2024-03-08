@@ -21,10 +21,10 @@ const Intro = () => {
         
         <section className="container mx-auto h-full w-screen ">
             <div className={style.unlock}>
-                <div className={style.barrier}>
+                {/* <div className={style.barrier}>
                             <span className={style.span}>Win customer trust, </span>
                             fuel your growth
-                        </div>
+                        </div> */}
 
                 <div className={style.barrier}>
                     <span className={style.span}>Unlocking barriers </span>
@@ -35,10 +35,10 @@ const Intro = () => {
                     Pay vendors with a direct or escrow account. Retain control over payouts.
                     Never let trust cost you the deal.
                 </p>
-                <p className={style.trust}>Accept fiat and crypto payments from anywhere.
+                {/* <p className={style.trust}>Accept fiat and crypto payments from anywhere.
                     Pay vendors with a fiat or crypto account. Retain control over payouts.
                     Never let trust cost you the deal.
-                </p>
+                </p> */}
 
                 <ul>
                     <li className={style.button}>
