@@ -59,7 +59,7 @@ const NavigationBar = () => {
 
   return (
     <main>
-      <nav className="flex justify-between items-center lg:px-52 py-4"> 
+      <nav className=" container mx-auto h-full w-screen flex justify-between items-center py-4"> 
         <div className="flex justify-between items-center ">
           {/* <div className="flex items-center"> */}
             <Link to="/">
