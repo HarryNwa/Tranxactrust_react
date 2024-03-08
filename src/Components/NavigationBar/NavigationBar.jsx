@@ -73,8 +73,8 @@ const NavigationBar = () => {
   ]
 
   return (
-    <main  className="flex justify-between items-center lg:px-44">
-      <nav>
+    <main  >
+      <nav className="flex justify-between items-center lg:px-44">
 
         <div className="flex justify-between items-center gap-4">
           <section className="flex items-center gap-4">
@@ -90,16 +90,19 @@ const NavigationBar = () => {
             </Link>
 
           </section>
+          <div className="flex flex-col lg:flex-row gap-20 justify-center lg:justify-between items-center ">
           {navLink.map((data, index) => (
             <Link key={index} to={data.link}
               className="hidden lg:block font-bold hover:text-blue">{data.label}</Link>
           ))}
+          </div>
+          <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center ">
           {loginLink.map((data, index) => (
             <GhostBtn key={index} styler={style.login} btn={data.label} />
           ))}
 
           <FilledBtn style={style.signup} btn={"Sign Up"} />
-
+          </div>
         </div>
 
         {/* "sidebar mobile menu" */}
