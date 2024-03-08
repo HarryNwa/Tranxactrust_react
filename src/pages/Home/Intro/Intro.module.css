@@ -559,7 +559,7 @@ section .contact:hover {
     width: fit-content;
     gap: 5px;
     padding-top: 5%;
-    padding-left: 4%;
+    /* padding-left: 4%; */
 
   }
   
