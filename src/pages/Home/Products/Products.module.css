@@ -1323,6 +1323,7 @@
   section .store{
     width: 335px;
     margin: 0 auto;
+    padding-right: 10%;
 
   }
 
@@ -1366,7 +1367,7 @@
   }
   
   section .monie1{
-    width: 330px;
+    width: fit-content;
     line-height: 30px;
     /* gap: 20px; */
     align-items: center;
