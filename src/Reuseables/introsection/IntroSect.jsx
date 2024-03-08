@@ -16,8 +16,8 @@ const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
     };
 
     return (
-        <main>
-            <div className="container mx-auto flex flex-col">
+        // <main>
+            <div className="container mx-auto flex flex-col px-3">
                 <div className={style.wrapper}>
                     <section className={style.welcome}>
                         <div className={style.unlock}>
@@ -64,7 +64,7 @@ const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
                 </div>
 
             </div>
-        </main>
+        // </main>
     );
 
 };
