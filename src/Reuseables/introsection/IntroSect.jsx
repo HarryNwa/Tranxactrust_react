@@ -5,7 +5,7 @@ import style from "./IntroSect.module.css";
 import SignupBtn from "../Buttons/SignupBtn";
 import GhostBtn from "../Buttons/GhostBtn/GhostBtn";
 
-const IntroSect = ({ text, text2, imgage, text3, btn, btn2 }) => {
+const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
     const navigate = useNavigate();
 
     const home = () => {
@@ -57,7 +57,7 @@ const IntroSect = ({ text, text2, imgage, text3, btn, btn2 }) => {
                         <div className={style.gif}>
                             {/* {img} */}
 
-                            <img src={imgage} className={style.img} alt="Cinque Terre" />
+                            <img src={imgage} className={img} alt="Cinque Terre" />
 
                         </div>
                     </section>
