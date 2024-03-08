@@ -5,7 +5,7 @@ import style from "./Individuals.module.css";
 
 const Individuals = () => {
     return (
-        <section className="container mx-auto flex flex-col">
+        <section className="container mx-auto h-full w-screen text-center flex flex-col">
 
             <div className={style.barrier1}>
                 <p>Unlocking boundless payment possibilities
