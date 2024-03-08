@@ -1,4 +1,4 @@
-.welcome {
+main {
   width: 100%;
   overflow: hidden;
   /* position: relative; */
@@ -7,6 +7,8 @@
   background-size: cover;
   background: rgb(247, 250, 253);
   box-sizing: border-box;
+  overflow: hidden;
+
 }
 
 /* section {
@@ -36,6 +38,8 @@ section .barrier {
   line-height: normal;
   letter-spacing: 1.8px;
   width: 800px;
+  overflow: hidden;
+
 }
 
 section .span {
@@ -95,9 +99,10 @@ section .contact {
   letter-spacing: 1.3px;
   gap: 0px;
   /* position: relative; */
-  top: 23%;
+  padding-top: 5%;
   justify-content: center;
   align-items: center;
+  width: 100%;
   
 }
 
