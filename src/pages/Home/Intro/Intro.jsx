@@ -25,7 +25,6 @@ const Intro = () => {
     };
 
     return (
-        <main >
         <section className="container mx-auto h-full w-screen ">
             <div className={style.unlock}>
                 {/* <div className={style.barrier}>
@@ -70,7 +69,6 @@ const Intro = () => {
 
             </div>
         </section>
-        </main>
     );
 
 };
