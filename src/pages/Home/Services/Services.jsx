@@ -204,7 +204,7 @@ const Services = () => {
 
 
                     <div className={style.linkContainer}>
-                        <div className={style.delivery}>
+                        <div className={style.apiDocument}>
                             <p className={style.api}>API Documents for Developers</p>
 
                             <div className={style.svgContainer1}>

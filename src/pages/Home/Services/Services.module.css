@@ -1250,7 +1250,7 @@ section .moreContainer{
 
     section .delivery {
         display: flex;
-        gap: 75px;
+        gap: 66px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1308,16 +1308,16 @@ section .moreContainer{
         gap: 3px;
         }
 
-        section .delivery{
+        section .apiDocument{
             display: flex;
             width: fit-content;
-            /* gap: 125px; */
+            gap: 75px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
             font-style: normal;
             font-weight: 600;
             line-height: normal;
-            /* padding: 20px; */
+            padding: 20px;
             
           }
           

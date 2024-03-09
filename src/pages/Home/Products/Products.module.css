@@ -1275,8 +1275,8 @@
   section .paycolumn{
     /* padding-right: 20px; */
     display: block;
-    margin-left: 1%;
-    width: 350px;
+    /* margin-left: 1%; */
+    width: fit-content;
 
   }
   
