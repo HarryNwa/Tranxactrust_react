@@ -525,7 +525,7 @@ section .contact:hover {
     line-height: normal;
     letter-spacing: 1.5px;
     width: fit-content;
-    padding-left: 4%;
+    /* padding-left: 1%; */
   }
   
   section .span {
@@ -549,7 +549,7 @@ section .contact:hover {
     line-height: 30px;
     letter-spacing: 1.8px;
     padding-top: 7%;
-    padding-left: 4%;
+    /* padding-left: 4%; */
 
   }
   
