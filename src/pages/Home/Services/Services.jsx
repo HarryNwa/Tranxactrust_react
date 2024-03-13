@@ -1,3 +1,62 @@
+// import React from "react";
+// import { useNavigate } from "react-router-dom";
+
+// const Services = () => {
+//     const navigate = useNavigate();
+
+//     const getSignUp = () => {
+//         navigate('/logistics');
+//     };
+
+//     const logistics = () => {
+//         navigate('/logistics');
+//     };
+
+//     return (
+//         <section className="container mx-auto h-full w-screen flex flex-col">
+//             <p className="text-xl font-bold text-center mb-8">Our Services</p>
+
+//             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+//                 <div className="p-4 border border-gray-200 rounded-lg shadow-md">
+//                     <div className="flex items-center justify-between mb-4">
+//                         <p className="text-lg font-semibold">Payment Link</p>
+//                         <svg className="w-10 h-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+//                             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 01-1.414-1.414l3.5-3.5a1 1 0 011.414 1.414l-3.5 3.5zM10 4a6 6 0 100 12 6 6 0 000-12zm-1 2a5 5 0 110 10 5 5 0 010-10zm-1 4a1 1 0 112 0v3a1 1 0 11-2 0v-3z" clipRule="evenodd" />
+//                         </svg>
+//                     </div>
+//                     <p className="text-sm text-gray-600">Generate and share payment link for borderless transactions and payment transfers across all platforms. Facebook, Twitter, Instagram, WhatsApp, etc.</p>
+//                     <div className="text-blue-500 mt-2 cursor-pointer">Learn More</div>
+//                 </div>
+//                 <div className="p-4 border border-gray-200 rounded-lg shadow-md">
+//                     <div className="flex items-center justify-between mb-4">
+//                         <p className="text-lg font-semibold">Ecrow Account</p>
+//                         <svg className="w-10 h-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+//                             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 01-1.414-1.414l3.5-3.5a1 1 0 011.414 1.414l-3.5 3.5zM10 4a6 6 0 100 12 6 6 0 000-12zm-1 2a5 5 0 110 10 5 5 0 010-10zm-1 4a1 1 0 112 0v3a1 1 0 11-2 0v-3z" clipRule="evenodd" />
+//                         </svg>
+//                     </div>
+//                     <p className="text-sm text-gray-600">Where your money stays safe. An escrow account in your name helps you monitor payments in real time, initiate cashouts anytime and concretize trust between you and your customers.</p>
+//                     <div className="text-blue-500 mt-2 cursor-pointer">Learn More</div>
+//                 </div>
+//                 <div className="p-4 border border-gray-200 rounded-lg shadow-md">
+//                     <div className="flex items-center justify-between mb-4">
+//                         <p className="text-lg font-semibold">Reverse Payment</p>
+//                         <svg className="w-10 h-10 text-blue-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+//                             <path fillRule="evenodd" d="M7.293 14.707a1 1 0 01-1.414-1.414l3.5-3.5a1 1 0 011.414 1.414l-3.5 3.5zM10 4a6 6 0 100 12 6 6 0 000-12zm-1 2a5 5 0 110 10 5 5 0 010-10zm-1 4a1 1 0 112 0v3a1 1 0 11-2 0v-3z" clipRule="evenodd" />
+//                         </svg>
+//                     </div>
+//                     <p className="text-sm text-gray-600">Reverse fiat and crypto payments made to any merchant at any point in time. With our dynamic network of partner banks and payment systems, we'll process your refund immediately.</p>
+//                     <div className="text-blue-500 mt-2 cursor-pointer">Learn More</div>
+//                 </div>
+//             </div>
+
+//             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-8" onClick={getSignUp}>Get Started</button>
+//         </section>
+//     );
+// };
+
+// export default Services;
+
+
 import React from "react";
 import style from "./Services.module.css"
 import { useNavigate } from "react-router-dom";
@@ -271,3 +330,5 @@ const Services = () => {
 }
 
 export default Services;
+
+

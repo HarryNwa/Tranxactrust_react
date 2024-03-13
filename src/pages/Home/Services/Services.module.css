@@ -1104,7 +1104,7 @@ section .moreContainer{
 
 /* @media(min-width: 390px) and (max-width: 584px) { */
 
-    @media screen and (max-width: 728px) {
+    @media screen and (max-width: 390px) {
 
     .index {
         display: block;

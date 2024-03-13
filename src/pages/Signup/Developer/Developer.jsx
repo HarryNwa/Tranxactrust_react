@@ -1,53 +1,20 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useState, useRef } from "react";
-import key from "../../images/ic_round-key.svg";
-import eye from "../../images/ph_eye.svg";
-import globe from "../../images/jam_world.svg";
-import close from "../../images/eye-close-svgrepo-com.svg"
-import tranxact from "../../images/Tranxact on.png"
+import key from "../../../images/ic_round-key.svg";
+import eye from "../../../images/ph_eye.svg";
+import globe from "../../../images/jam_world.svg";
+import close from "../../../images/eye-close-svgrepo-com.svg"
+import tranxact from "../../../images/Tranxact on.png"
 import { MdOutlineMail } from "react-icons/md";
 import PhoneInput from "react-phone-input-2";
 import 'react-phone-input-2/lib/style.css';
-import Support from "../../pages/Support/Support";
-import style from "./Signup.module.css";
-import Personal from "./Personal/Personal";
-import Business from "./Business/Business";
-import Developer from "./Developer/Developer";
-import Logistics from "./Logistics/Logistics";
+import Support from "../../Support/Support";
+import style from "./Developer.module.css";
 
 
 
-const Signup = () => {
-    // const [selectedRole, setSelectedRole] = useState(null);
-    // const roles = ["Personal", "Business", "Logistics", "Developers"];
-  
-    // const handleRoleSelect = (role) => {
-    //   setSelectedRole(role);
-    // };
-  
-    // const handleSignup = () => {
-    //   // Implement signup logic based on the selected role
-    //   console.log(`Signing up as ${selectedRole}`);
-    // };
-  
-    // return (
-    //   <div>
-    //     <DropdownButton title="Sign Up">
-    //       {roles.map((role, index) => (
-    //         <div key={index} onClick={() => handleRoleSelect(role)}>
-    //           {role}
-    //         </div>
-    //       ))}
-    //     </DropdownButton>
-    //     <div>
-    //       {selectedRole && (
-    //         <FilledBtn onClick={handleSignup} btn={`Sign Up as ${selectedRole}`} />
-    //       )}
-    //     </div>
-    //   </div>
-    // );
-  
+const Developer = () => {
     const [passwordVisible, setPasswordVisible] = useState(false);
     const [password, setPassword] = useState('');
 
@@ -86,7 +53,6 @@ const Signup = () => {
     const developer = () => {
         navigate('/developer');
     };
-
     const [userData, setUserData] = useState({
         phoneNumber: '',
         nationality: '',
@@ -102,6 +68,7 @@ const Signup = () => {
         try {
             // const apiUrl = `${process.env.REACT_APP_TRANXACTRUST}/users`;
             // const apiUrl = `${process.env.REACT_API_TRANXACTRUST}/users`;
+
             const apiUrl = `http://localhost:8770/api/users`;
             const userPhoneData = {
                 ...userData,
@@ -307,12 +274,11 @@ const Signup = () => {
             <Support />
 
         </div>
-  
     );
 
 }
 
-export default Signup;
+export default Developer;
 
 // import React, { useState } from "react";
 // import { Link } from "react-router-dom";
@@ -326,7 +292,7 @@ export default Signup;
 // import close from "../../images/eye-close-svgrepo-com.svg";
 // import tranxact from "../../images/Tranxact on.png";
 
-// const Signup = () => {
+// const Developer = () => {
 //   const [passwordVisible, setPasswordVisible] = useState(false);
 //   const [password, setPassword] = useState("");
 //   const [phoneNumber, setPhoneNumber] = useState("");
@@ -536,5 +502,5 @@ export default Signup;
 //   );
 // };
 
-// export default Signup;
+// export default Developer;
 

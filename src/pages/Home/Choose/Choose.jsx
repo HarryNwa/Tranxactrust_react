@@ -1,3 +1,44 @@
+// import React from "react";
+// import { Link } from "react-router-dom";
+// import image from "../../../images/image 2.png";
+
+// const Choose = () => {
+//     return (
+//         <section className="container mx-auto py-8 text-center">
+//             <div className="max-w-4xl mx-auto">
+//                 <div className="text-2xl font-semibold mb-4">
+//                     Why choose <span className="text-blue-500">Tranxactrust</span> for your business?
+//                 </div>
+//                 <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start lg:gap-8">
+//                     <div className="lg:w-1/2">
+//                         <div className="flex items-center mb-4">
+//                             <svg className="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+//                                 <rect width="24" height="24" rx="10" fill="#EEF4FF" />
+//                                 <path d="M8.8 15.9L4.6 11.7L3.2 13.1L8.8 18.7L20.8 6.7L19.4 5.3L8.8 15.9Z" fill="#6B9BFC" />
+//                             </svg>
+//                             <p>Cheaper rate for fiat and crypto conversion for your business profit.</p>
+//                         </div>
+                       
+//                         <ul className="text-left">
+//                             <li>
+//                                 <Link to={'/trustmonie'} className="inline-block px-4 py-2 rounded-md bg-blue-500 text-white hover:bg-blue-600">Sign Up Now</Link>
+//                             </li>
+//                             <li>
+//                                 <Link to={'/signup'} className="inline-block px-4 py-2 mt-4 lg:mt-0 rounded-md border border-blue-500 text-blue-500 hover:text-white hover:bg-blue-500">Contact Sales</Link>
+//                             </li>
+//                         </ul>
+//                     </div>
+//                     <div className="lg:w-1/2">
+//                         <img src={image} alt="image" className="w-full lg:w-auto" />
+//                     </div>
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// }
+
+// export default Choose;
+
 import React from "react";
 import { Link } from "react-router-dom";
 import image from "../../../images/image 2.png";

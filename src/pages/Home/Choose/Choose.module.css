@@ -131,7 +131,7 @@ section .ticker{
 
 @media(min-width: 390px) and (max-width: 539px){ */
 
-  @media screen and (max-width: 728px) {
+  @media screen and (max-width: 390px) {
   .intro{
     display: block;
     width: 100%;

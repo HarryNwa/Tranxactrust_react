@@ -1,5 +1,12 @@
-.deliverySection{
+section{
+  width: 100%;
   display: block;
+}
+
+.sync{
+  width: 60%;
+  margin: 0 auto;
+
 }
 
 section .description{
@@ -81,10 +88,13 @@ section .account2{
 
 section .index {
   display: flex;
-  /* padding-left: 150px; */
-  /* padding-right: 100px; */
+  justify-content: space-between;
+  gap: 5%;
+  /* padding-left: 150px;
+  padding-right: 100px; */
 
 }
+
 
 section .barrier1 {
   color: var(--Secondary-Colour-06, black);
@@ -95,6 +105,7 @@ section .barrier1 {
   line-height: normal;
   text-align: center;
   letter-spacing: 1.8px;
+  width: fit-content;
 }
 
 section .linkContainer2 {
@@ -105,7 +116,7 @@ section .linkContainer2 {
   background: none;
   box-shadow: 0px 5px 20px 0px rgba(139, 142, 149, 0.15);
   margin: 0 auto;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 section .linkContainer3 {
@@ -247,7 +258,7 @@ section .edp{
 }
 
 @media(min-width: 390px) and (max-width: 539px){ */
-  @media screen and (max-width: 728px) {
+  @media screen and (max-width: 390px) {
   section .description{
     color: var(--Gray-Colour-07, #454649);
     font-family: Arial, Helvetica, sans-serif;

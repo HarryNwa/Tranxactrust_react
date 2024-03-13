@@ -503,7 +503,7 @@ section .contact:hover {
   }
 } */
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 390px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
   .welcome{
     width: 100%;

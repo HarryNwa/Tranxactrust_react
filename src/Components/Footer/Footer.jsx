@@ -1,3 +1,113 @@
+// import React from "react";
+// import logo from "../../images/Tranxact on.png";
+// import "tailwindcss/tailwind.css";
+
+// const Footer = () => {
+//     return (
+//         <footer className="bg-blue-100 ">
+//             <div className="container mx-auto py-8">
+//                 <div className="flex flex-wrap justify-between">
+//                     <div className="w-full sm:w-auto mb-8 sm:mb-0">
+//                         <img className="h-16" src={logo} alt="Tranxactrust logo" />
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Products</p>
+//                             <p className="mt-2">PayTrusty -- TrustMonie (escrow suite)</p>
+//                             <p>Voucher</p>
+//                             <p>Investrust</p>
+//                             <p>Reverse Payment</p>
+//                             <p>Collect Payment</p>
+//                             <p>Contractrust (Govt suite)</p>
+//                             <p>Shop</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Process payments</p>
+//                             <p className="mt-2">Smart Spend*</p>
+//                             <p>Payment Link</p>
+//                             <p>Tranxactrust POS</p>
+//                             <p>Offline Payment</p>
+//                             <p>Payment Gateway</p>
+//                             <p>QR Codes</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Payments & Deliveries</p>
+//                             <p className="mt-2">Voucher</p>
+//                             <p>Express Delivery Protocol (EDP)</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Developers</p>
+//                             <p className="mt-2">Documents</p>
+//                             <p>API Reference</p>
+//                             <p>Integration</p>
+//                             <p>Chargeback Guide</p>
+//                             <p>Settlement Guide</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Company</p>
+//                             <p className="mt-2">About Us</p>
+//                             <p>Career</p>
+//                             <p>Terms of Use</p>
+//                             <p>Privacy Policy</p>
+//                             <p>Partners</p>
+//                             <p>White Paper</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Become a Partner</p>
+//                             <p className="mt-2">Logistics agency</p>
+//                             <p>Refer and Earn</p>
+//                             <p>Transact and Earn</p>
+//                             <p>Onboarding APIs</p>
+//                             <p>Real Estate payment broker</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Resources</p>
+//                             <p className="mt-2">Blog</p>
+//                             <p>Customer Journey</p>
+//                             <p>Happenings</p>
+//                             <p>Chargeback Guide</p>
+//                             <p>Settlement Guide</p>
+//                         </div>
+//                     </div>
+//                     <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 mb-8 sm:mb-0">
+//                         <div className="mb-4">
+//                             <p className="text-lg font-semibold text-red-500">Help and Support</p>
+//                             <p className="mt-2">Support</p>
+//                             <p>Know Us</p>
+//                             <div className="mt-4">
+//                                 <a href="mailto:support@tranxactrust.com">
+//                                     <svg className="h-6 w-6 fill-current text-white" viewBox="0 0 40 41" xmlns="http://www.w3.org/2000/svg">
+//                                         <path d="M33.3334 30.4998H30V15.9165L20 22.1665L10 15.9165V30.4998H6.66671V10.4998H8.66671L20 17.5832L31.3334 10.4998H33.3334M33.3334 7.1665H6.66671C4.81671 7.1665 3.33337 8.64984 3.33337 10.4998V30.4998C3.33337 31.3839 3.68456 32.2317 4.30968 32.8569C4.93481 33.482 5.78265 33.8332 6.66671 33.8332H33.3334C34.2174 33.8332 35.0653 33.482 35.6904 32.8569C36.3155 32.2317 36.6667 31.3839 36.6667 30.4998V10.4998C36.6667 9.61578 36.3155 8.76794 35.6904 8.14281C35.0653 7.51769 34.2174 7.1665 33.3334 7.1665Z" fill="#6E7480" />
+//                                     </svg>
+//                                 </a>
+//                             </div>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//             <div className="container mx-auto text-center mt-8">
+//                 <hr className="border-gray-600" />
+//                 <p className="mt-4">&copy; Tranxactrust 2024, All rights reserved</p>
+//             </div>
+//         </footer>
+//     );
+// }
+
+// export default Footer;
+
+
 import React from "react";
 import logo from "../../images/Tranxact on.png";
 import style from "./Footer.module.css"
@@ -180,4 +290,3 @@ const Footer = () => {
 }
 
 export default Footer;
-

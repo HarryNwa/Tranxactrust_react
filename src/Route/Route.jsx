@@ -9,6 +9,10 @@ import { DashBoard } from "../pages/Dashboard/DashBoard";
 import { Store } from "../pages/Store/Store";
 import Shop from "../Products/Shop";
 import GhostBtn from "../Reuseables/Buttons/GhostBtn/GhostBtn";
+import Personal from "../pages/Signup/Personal/Personal";
+import Business from "../pages/Signup/Business/Business";
+import Logistics from "../pages/Signup/Logistics/Logistics";
+import Developer from "../pages/Signup/Developer/Developer";
 
 export const ROUTES = [
     {
@@ -17,11 +21,11 @@ export const ROUTES = [
         children: [
             {
                 path: "",
-                element:<Home/>,
+                element: <Home />,
             },
             {
                 path: "home",
-                element:<Home/>,
+                element: <Home />,
             },
 
             {
@@ -36,7 +40,7 @@ export const ROUTES = [
 
             {
                 path: "/investrust",
-                element: <Investrust /> 
+                element: <Investrust />
                 // <a href="#intro" />,
             },
 
@@ -45,22 +49,48 @@ export const ROUTES = [
                 element: <Shop />,
             },
 
+            {
+                path: '/signup',
+                element: <Signup />
+            },
+
         ]
-        
-    }, 
+
+    },
 
     {
         path: '/login',
-        element: <Login/>,
+        element: <Login />,
+    },
+
+    // {
+    //     path: '/signup',
+    //     element: <Signup />
+    // },
+
+    {
+        path: '/personal',
+        element: <Personal />
     },
 
     {
-        path: '/signup',
-        element: <Signup />
+        path: '/business',
+        element: <Business />
     },
+
+    {
+        path: '/logistics',
+        element: <Logistics />
+    },
+
+    {
+        path: '/developer',
+        element: <Developer />
+    },
+
 
     {
         path: "/dashboard",
-        element: <DashBoard /> 
+        element: <DashBoard />
     },
 ]

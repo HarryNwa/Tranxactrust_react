@@ -1,3 +1,62 @@
+// import React from "react";
+// import { Link, useNavigate } from "react-router-dom";
+// import photo from "../../../images/payment-photo.png";
+// import house from "../../../images/house-frame-removebg-preview.png";
+// import property from "../../../images/property.png";
+// import shopKeeper from "../../../images/Store Keeper.png";
+// import coin from "../../../images/Crypto.png";
+
+// const Products = () => {
+//     const navigate = useNavigate();
+
+//     const getProducts = () => {
+//         navigate('/signup');
+//     };
+
+//     const openShop = () => {
+//         navigate('/shop');
+//     };
+
+//     const goInvest = () => {
+//         navigate('/investrust');
+//     };
+
+//     return (
+//         <section className="container mx-auto h-full w-screen flex flex-col">
+//             <div className="text-center">
+//                 <p>Unlocking payment barriers <span className="text-blue-500">for Businesses</span></p>
+//                 <p className="text-gray-500">Regardless of the size of your business, our payment tools are designed to keep it scaling.</p>
+//             </div>
+
+//             <div className="flex justify-around items-center">
+//                 <div className="flex flex-col items-center">
+//                     <span className="text-blue-500">Trustmonie</span>
+//                     <p className="text-gray-500">Dealing with trust issues is inevitable when selling to strangers on social media or anywhere. With Trustmonie, you get direct and escrow accounts in one <Link to="/trustmonie" className="text-blue-500">Sign Up.</Link> A double-in-one account offers the flexible options to accept direct or escrow payments and win customer trust.</p>
+//                     <button onClick={getProducts} className="bg-blue-500 text-white py-2 px-4 rounded-lg mt-4">Sign Up Now</button>
+//                     <img className="mt-4" src={photo} alt="payment image" />
+//                 </div>
+
+//                 <div className="flex flex-col items-center">
+//                     <span className="text-blue-500">Shop</span>
+//                     <p className="text-gray-500">Stay ever closer to thousands of shoppers paying on Tranxactrust. Open your one-stop online Shop on our marketplace and start selling to new customers globally.</p>
+//                     <button onClick={openShop} className="bg-blue-500 text-white py-2 px-4 rounded-lg mt-4">Go Shopping</button>
+//                     <img src={shopKeeper} className="mt-4" alt="Store Keeper" />
+//                 </div>
+
+//                 <div className="flex flex-col items-center">
+//                     <span className="text-blue-500">Investrust</span>
+//                     <p className="text-gray-500">Investrust is designed for local and cross border payment for real estate investors. With a fully escrow-powered payment processor, it is easier to guarantee your clients payment protection.</p>
+//                     <button onClick={goInvest} className="bg-blue-500 text-white py-2 px-4 rounded-lg mt-4">Start Investing</button>
+//                     <img className="mt-4" src={property} alt="house" />
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// };
+
+// export default Products;
+
+
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import photo from "../../../images/payment-photo.png";
