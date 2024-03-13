@@ -339,7 +339,7 @@ section .mist {
     }
 } */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 728px) {
 /* @media(min-width: 390px) and (max-width: 539px){ */
 
     .brands {

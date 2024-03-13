@@ -258,7 +258,7 @@ section .edp{
 }
 
 @media(min-width: 390px) and (max-width: 539px){ */
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 728px) {
   section .description{
     color: var(--Gray-Colour-07, #454649);
     font-family: Arial, Helvetica, sans-serif;

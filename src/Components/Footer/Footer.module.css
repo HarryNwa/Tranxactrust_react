@@ -158,7 +158,7 @@ footer {
   }
   
   @media(min-width: 390px) and (max-width: 539px){ */
-    @media screen and (max-width: 390px) {
+    @media screen and (max-width: 728px) {
 
     footer {
       background-color: #c8ddf4;

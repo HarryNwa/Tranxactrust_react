@@ -131,7 +131,7 @@ section .ticker{
 
 @media(min-width: 390px) and (max-width: 539px){ */
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 728px) {
   .intro{
     display: block;
     width: 100%;
@@ -234,8 +234,7 @@ section .ticker{
   line-height: normal;
   text-align: left;
   letter-spacing: 1.3px;
-  /* margin-left: 8%; */
-  width: 95%;
+  width: fit-content;
   display: flex;
 }
 }

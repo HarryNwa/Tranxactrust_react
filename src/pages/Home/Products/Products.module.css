@@ -1249,11 +1249,11 @@
 
 /* @media(min-width: 390px) and (max-width: 584px) { */
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 728px) {
 
   .unlock1{
     display: block;
-    width: 100%;
+    width: fit-content;
     /* margin-right: 40px */
     /* margin: 0 auto; */
   }
@@ -1261,31 +1261,21 @@
   
   .paymentIntro{
     display: block;
-    /* margin-right: -5%; */
-    /* width: 100%; */
+    margin-left: -5%;
+    /* width: 350px; */
     
   }
   
   section .pay{
-    width: 400px;
-    margin-right: 8%;
-
+    width: fit-content;
     /* display: none; */
   
   }
   
-  section .estate{
-    width: 330px;
-    margin-left: 8%;
-
-    /* display: none; */
-  
-  }
-
   section .paycolumn{
     /* padding-right: 20px; */
     display: block;
-    margin-left: -14%;
+    /* margin-left: 1%; */
     width: fit-content;
 
   }
@@ -1331,9 +1321,9 @@
   }
   
   section .store{
-    width: 320px;
-    /* margin: 0 auto; */
-    margin-left: 9%;
+    width: 335px;
+    margin: 0 auto;
+    padding-right: 10%;
 
   }
 
@@ -1377,7 +1367,7 @@
   }
   
   section .monie1{
-    width: 405px;
+    width: fit-content;
     line-height: 30px;
     /* gap: 20px; */
     align-items: center;
@@ -1415,8 +1405,8 @@
     font-weight: 700;
     line-height: normal;
     line-height: 40px; 
-    margin-left: 8%;
-    width: 75%;
+    /* padding: 10px; */
+    width: fit-content;
     text-align: left;
   }
   
@@ -1460,10 +1450,9 @@
     line-height: normal;
     text-align: left;
     letter-spacing: 1.3px;
-    width: 70%;
+    width: fit-content;
     display: flex;
     flex-direction: row;
-    margin-left: 8%;
   }
   
   section .account2{
@@ -1483,7 +1472,6 @@
     cursor: pointer;
     margin-top: 5%;
     width: fit-content;
-    margin-left: 8%;
   }
   
   
