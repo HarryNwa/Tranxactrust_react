@@ -113,6 +113,7 @@ const Products = () => {
                     </Link>
 
                     <img className={style.pay} src={photo} alt="payment image" />
+                </div>
                     <div className={style.paycolumn}>
                         <span className={style.monie}>Shop</span>
                         {/* <div className={style.shopFlexer}> */}
@@ -150,7 +151,7 @@ const Products = () => {
                         </svg>
                     </Link> */}
 
-                </div>
+                {/* </div> */}
 
                 <div className={style.paycolumn}>
                     <span className={style.monie}>Investrust</span>
@@ -161,7 +162,7 @@ const Products = () => {
                         payment protection. </p>
 
                     {/* <img className={style.pay} src={house} alt="house" /> */}
-                    <img className={style.pay} src={property} alt="house" />
+                    <img className={style.estate} src={property} alt="house" />
 
                     {/* <Link to={'/investrust'} className={style.moreContainer}> Start Investing */}
                     <button onClick={goInvest} className={style.account2}>Start Investing
