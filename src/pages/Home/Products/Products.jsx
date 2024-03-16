@@ -96,7 +96,9 @@ const Products = () => {
 
             <div className={style.paymentIntro}>
                 <div className={style.paycolumn}>
-                    <span className={style.monie}>Trustmonie</span>
+                    {/* <span className={style.monie}> */}
+                        Trustmonie
+                    {/* </span> */}
 
                     <p className={style.monie1}>Dealing with trust issues is inevitable
                         when selling to strangers on social media or anywhere.
@@ -113,9 +115,11 @@ const Products = () => {
                     </Link>
 
                     <img className={style.pay} src={photo} alt="payment image" />
-                </div>
-                    <div className={style.paycolumn}>
-                        <span className={style.monie}>Shop</span>
+                
+                    {/* <div className={style.paycolumn}> */}
+                        {/* <span className={style.monie}> */}
+                            Shop
+                        {/* </span> */}
                         {/* <div className={style.shopFlexer}> */}
 
                             <p className={style.monie1}>Stay ever closer to thousands of shoppers paying on
@@ -132,7 +136,8 @@ const Products = () => {
                                 <path d="M18.9583 8.75L16.902 10.8062L23.5812 17.5L16.902 24.1938L18.9583 26.25L27.7083 17.5L18.9583 8.75Z" fill="#0887ef" />
                             </svg>
                         </Link>
-                    </div>
+                    {/* </div> */}
+                </div>
 
                     {/* <span className={style.monie}>TrxtPay</span>
 
@@ -154,7 +159,9 @@ const Products = () => {
                 {/* </div> */}
 
                 <div className={style.paycolumn}>
-                    <span className={style.monie}>Investrust</span>
+                    {/* <span className={style.monie}> */}
+                        Investrust
+                    {/* </span> */}
 
                     <p className={style.monie1}>Investrust is designed for local and cross border
                         payment for real estate investors. With a fully escrow-powered
