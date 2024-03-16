@@ -153,7 +153,7 @@ const Signup = () => {
                 <div className={style.email}>
                     <div className={style.emailCon}>
                         <div className={style.globe}>
-                            Country..
+                            Country...
                             <img className={style.globeSvg} src={globe} />
                         </div>
 

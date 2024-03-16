@@ -8,7 +8,6 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'guild-bg': "url('assets/Ellipse.png')",
-        // 'guild-bg': "url('/home/user/Tranxactrust_react/src/assets/Ellipse.png')",
 
 
       }),
