@@ -209,7 +209,7 @@
       display: block;
       background-color: rgb(16, 69, 214);
       border-radius: 18px;
-      width: fit-content;
+      width: 100%;
 
     }
     

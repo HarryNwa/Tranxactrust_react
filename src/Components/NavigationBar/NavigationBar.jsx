@@ -89,8 +89,8 @@ const NavigationBar = () => {
           </div>
         </div>
 
-        <div className={clsx("fixed h-full w-screen lg:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all", isSideMenuOpen && "translate-x-0")}>
-          <section className="text-black bg-white flex-col absolute left-0 top-0 h-screen p-8 gap-8 z-50 flex">
+        <div className={clsx("fixed h-full w-screen lg:hidden bg-black/50 backdrop-blur-sm top-0 right-0 -translate-x-full transition-all text-black bg-white flex-col left-0 p-8 gap-8 z-50 flex", isSideMenuOpen && "translate-x-0")}>
+          {/* <section className="text-black bg-white flex-col absolute left-0 top-0 h-screen p-8 gap-8 z-50 flex"> */}
             <GrClose onClick={() => setSideMenu(false)} className="mt-0 mb-0 text-3xl cursor-pointer" />
             {navLink.map((data, index) => (
               <Link key={index} to={data.link} className="font-bold">
@@ -99,7 +99,7 @@ const NavigationBar = () => {
             ))}
             <GhostBtn styler={style.login} btn={"Log In"} />
             <FilledBtn style={style.signup} btn={"Sign Up"} />
-          </section>
+          {/* </section> */}
         </div>
 
         <FiMenu onClick={() => setSideMenu(true)} className="text-3xl cursor-pointer lg:hidden" />
