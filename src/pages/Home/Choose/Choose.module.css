@@ -1,44 +1,44 @@
-.intro{
+.intro {
   display: block;
-  background: rgba(235, 241, 255, 0.5); 
+  background: rgba(235, 241, 255, 0.5);
   /* margin-left: 0 -20px; */
   /* margin-right: -20px;  */
   box-sizing: border-box;
   width: 100%;
 }
 
-section .choose{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    line-height: 40px; 
-    text-align: center;
-    padding: 40px;
-  }
+section .choose {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  line-height: 40px;
+  text-align: center;
+  padding: 40px;
+}
 
-  section .img{
-    display: block;
-  }
+section .img {
+  display: block;
+}
 
-  section .row4{
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+section .row4 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 
-  }
+}
 
-  section .button {
+section .button {
   display: flex;
   float: left;
   width: 100%;
   gap: 20px;
 }
 
-section .account{
-  border: 5px solid  #0887ef;
-  background-color:  #0887ef;
+section .account {
+  border: 5px solid #0887ef;
+  background-color: #0887ef;
   border-radius: 28px;
   padding: 10px 28px;
   color: var(--Gray-Colour-01, #FCFCFD);
@@ -48,31 +48,31 @@ section .account{
   font-weight: 800;
   cursor: pointer;
   line-height: normal;
-  letter-spacing: 0.3px; 
+  letter-spacing: 0.3px;
 }
 
 section .contact {
-    display: flex;
-    color: var(--Gray-Colour-08, #0887ef);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px; 
-    letter-spacing: 1.3px;
-    gap: 0px;
-    position: relative;
-    top: 23%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  color: var(--Gray-Colour-08, #0887ef);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 1.3px;
+  gap: 0px;
+  position: relative;
+  top: 23%;
+  justify-content: center;
+  align-items: center;
 }
 
-section .contact:hover{
+section .contact:hover {
   column-gap: 5px;
   color: #4e9cea;
 }
 
-section .span2{
+section .span2 {
   color: var(--primary-co-our-05, #0887ef);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 28px;
@@ -82,12 +82,12 @@ section .span2{
   letter-spacing: 1.8px;
 }
 
-section .puncher{
-  width: 500px;
+section .puncher {
+  width: fit-content;
   line-height: 40px;
 }
 
-section .ticker{
+section .ticker {
   gap: 20px;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -102,13 +102,13 @@ section .ticker{
 }
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
+  from {
+    opacity: 0;
+  }
 
-	to {
-		opacity: 1;
-	}
+  to {
+    opacity: 1;
+  }
 }
 
 /* 
@@ -131,28 +131,28 @@ section .ticker{
 
 @media(min-width: 390px) and (max-width: 539px){ */
 
-  @media screen and (max-width: 728px) {
-  .intro{
+@media screen and (max-width: 728px) {
+  .intro {
     display: block;
     width: 100%;
   }
 
-  section .choose{
+  section .choose {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    line-height: 40px; 
+    line-height: 40px;
     text-align: center;
-    padding: 40px;
+    /* padding: 40px; */
   }
 
-  section .img{
+  section .img {
     display: none;
   }
 
-  section .row4{
+  section .row4 {
     display: block;
     margin: 0 auto;
     /* gap: 20px; */
@@ -160,84 +160,81 @@ section .ticker{
   }
 
   section .button {
-  display: flex;
-  float: left;
-  width: fit-content;
-  /* gap: 20px; */
+    display: flex;
+    float: left;
+    width: fit-content;
+    /* gap: 20px; */
+  }
+
+  section .account {
+    border: 5px solid #0887ef;
+    background-color: #0887ef;
+    border-radius: 28px;
+    /* padding: 4px 8px; */
+    color: var(--Gray-Colour-01, #FCFCFD);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    width: 155px;
+
+  }
+
+  section .contact {
+    display: flex;
+    color: var(--Gray-Colour-08, #0887ef);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 1.3px;
+    gap: 0px;
+    position: relative;
+    top: 15%;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+
+  section .contact:hover {
+    column-gap: 5px;
+    color: #4e9cea;
+  }
+
+  .contactSvg {
+    display: none;
+  }
+
+  section .span2 {
+    color: var(--primary-co-our-05, #0887ef);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+    letter-spacing: 1.8px;
+  }
+
+  section .puncher {
+    width: fit-content;
+    line-height: 40px;
+  }
+
+  section .ticker {
+    gap: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 1.3px;
+    width: fit-content;
+    display: flex;
+  }
 }
-
-section .account {
-  border: 5px solid #0887ef;
-  background-color: #0887ef;
-  border-radius: 28px;
-  /* padding: 4px 8px; */
-  color: var(--Gray-Colour-01, #FCFCFD);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 600;
-  cursor: pointer;
-  line-height: normal;
-  letter-spacing: 0.3px;
-  width: 155px;
-
-}
-
-section .contact {
-  display: flex;
-  color: var(--Gray-Colour-08, #0887ef);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 30px;
-  letter-spacing: 1.3px;
-  gap: 0px;
-  position: relative;
-  top: 15%;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-}
-
-section .contact:hover {
-  column-gap: 5px;
-  color: #4e9cea;
-}
-
-.contactSvg{
-  display: none;
-}
-
-section .span2{
-  color: var(--primary-co-our-05, #0887ef);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 1000;
-  line-height: normal;
-  letter-spacing: 1.8px;
-}
-
-section .puncher{
-  width: fit-content;
-  line-height: 40px;
-}
-
-section .ticker{
-  gap: 20px;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: left;
-  letter-spacing: 1.3px;
-  width: fit-content;
-  display: flex;
-}
-}
-
-
-
