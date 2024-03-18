@@ -17,9 +17,9 @@ const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
 
     return (
         // <main>
-            <div className="container mx-auto flex flex-col">
-                <div className={style.wrapper}>
-                    <section className={style.welcome}>
+        <section className="container mx-auto h-full w-screen flex flex-col">
+                {/* <div className={style.wrapper}> */}
+                    {/* <div className={style.welcome}> */}
                         <div className={style.unlock}>
                             {/* <div className={style.barrier}>
                             <span className={style.span}>Win customer trust, </span>
@@ -60,10 +60,10 @@ const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
                             <img src={imgage} className={img} alt="Cinque Terre" />
 
                         </div>
-                    </section>
-                </div>
+                    {/* </div>
+                </div> */}
 
-            </div>
+            </section>
         // </main>
     );
 
