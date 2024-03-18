@@ -27,7 +27,7 @@ section .pay {
 }
 
 section .paycolumn {
-  padding: 20px;
+  /* padding: 20px; */
   /* margin-right: 5px; */
   /* margin: 0 auto; */
   color: var(--primary-co-our-05, rgb(255, 89, 0));
@@ -138,7 +138,7 @@ section .coin {
 }
 
 section .monie1 {
-  width: 450px;
+  width: fit-content;
   line-height: 30px;
   gap: 20px;
   color: var(--primary-co-our-05, black);
@@ -149,7 +149,8 @@ section .monie1 {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 1.3px;
-  padding: 40px;
+  margin-top: 5%;
+  /* padding: 40px; */
 }
 
 section .moreContainer {
@@ -162,7 +163,7 @@ section .moreContainer {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  padding: 0px 40px;
+  padding: 15px 40px;
 }
 
 .moreContainer:hover {
@@ -1343,7 +1344,7 @@ section .listContainer {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1.3px;
-    padding: 20px;
+    /* padding: 20px; */
 
   }
 
@@ -1430,7 +1431,6 @@ section .listContainer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: var(--primary-co-our-05, black);
-
     font-style: normal;
     font-weight: 700;
     line-height: normal;

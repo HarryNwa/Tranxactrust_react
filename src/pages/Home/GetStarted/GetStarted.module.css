@@ -284,7 +284,7 @@
       position: relative;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: fit-content; 
+      width: 100%; 
       border-radius: 18px;
       border: 2px solid #ccc;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

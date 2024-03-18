@@ -103,7 +103,7 @@ const Products = () => {
                     <p className={style.monie1}>Dealing with trust issues is inevitable
                         when selling to strangers on social media or anywhere.
                         With Trustmonie, you get direct and escrow accounts in one
-                        <Link to={'/trustmonie'} className={style.update} > Sign Up. </Link>
+                        <Link to={'/signup'} className={style.update} > Sign Up. </Link>
                         A double-in-one account offers the flexible options to
                         accept direct or escrow payments and win customer trust.</p>
 
