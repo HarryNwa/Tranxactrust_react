@@ -560,8 +560,9 @@ section .contact:hover {
   section .button {
     display: flex;
     /* float: right; */
-    width: fit-content;
-    gap: 7px;
+    width: 100%;
+    justify-content: space-between;
+    /* gap: 7px; */
     /* padding-top: 5%; */
     /* padding-left: -4%; */
 
@@ -574,7 +575,7 @@ section .contact:hover {
     padding: 4px 8px;
     color: var(--Gray-Colour-01, #FCFCFD);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     cursor: pointer;
@@ -588,9 +589,9 @@ section .contact:hover {
     display: flex;
     color: var(--Gray-Colour-08, #0887ef);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 910;
     line-height: 30px;
     /* letter-spacing: 1px; */
     gap: 0px;
