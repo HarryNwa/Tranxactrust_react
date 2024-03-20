@@ -1,13 +1,13 @@
-.index{
+.index {
     display: block;
     width: 100%;
     margin: 0 auto;
 }
 
-.abbr{
+.abbr {
     text-decoration: none;
     text-decoration-skip-ink: none;
-  }
+}
 
 section .service {
     display: block;
@@ -32,7 +32,7 @@ section .listContainer {
     margin-top: 5%;
 }
 
-section .delivery{
+section .delivery {
     display: flex;
     width: fit-content;
     /* gap: 125px; */
@@ -42,21 +42,21 @@ section .delivery{
     font-weight: 600;
     line-height: normal;
     /* padding: 20px; */
-    
-  }
 
-  section .update{
+}
+
+section .update {
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
     color: var(--Secondary-Colour-05, #0887ef);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal; 
+    line-height: normal;
     cursor: pointer;
-  
-  }
+
+}
 
 .svg1,
 .svg2,
@@ -211,34 +211,34 @@ section .linkContainer {
 
 }
 
-section .moreContainer{
+section .moreContainer {
     display: flex;
     align-items: center;
-    gap: 0px; 
+    gap: 0px;
     color: var(--Secondary-Colour-05, #0887ef);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal; 
+    line-height: normal;
     padding: 0px 40px;
     width: 100%;
-  }
-  
-  .moreContainer:hover{
+}
+
+.moreContainer:hover {
     gap: 3px;
-  }
+}
 
 
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
+    from {
+        opacity: 0;
+    }
 
-	to {
-		opacity: 1;
-	}
+    to {
+        opacity: 1;
+    }
 }
 
 
@@ -1104,7 +1104,7 @@ section .moreContainer{
 
 /* @media(min-width: 390px) and (max-width: 584px) { */
 
-    @media screen and (max-width: 728px) {
+@media screen and (max-width: 728px) {
 
     .index {
         display: block;
@@ -1181,7 +1181,7 @@ section .moreContainer{
 
     section .link {
         display: flex;
-        gap: 135px;
+        gap: 105px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1203,7 +1203,7 @@ section .moreContainer{
 
     section .escrow {
         display: flex;
-        gap: 120px;
+        gap: 90px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1215,7 +1215,7 @@ section .moreContainer{
 
     section .reverse {
         display: flex;
-        gap: 98px;
+        gap: 68px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1239,7 +1239,7 @@ section .moreContainer{
 
     section .support {
         display: flex;
-        gap: 144px;
+        gap: 114px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1250,7 +1250,7 @@ section .moreContainer{
 
     section .delivery {
         display: flex;
-        gap: 66px;
+        gap: 36px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1290,35 +1290,35 @@ section .moreContainer{
 
     }
 
-    section .moreContainer{
+    section .moreContainer {
         display: flex;
         align-items: center;
-        gap: 0px; 
+        gap: 0px;
         color: var(--Secondary-Colour-05, #0887ef);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
-        line-height: normal; 
+        line-height: normal;
         padding: 0px 40px;
         width: fit-content;
-        }
-        
-        .moreContainer:hover{
-        gap: 3px;
-        }
+    }
 
-        section .apiDocument{
-            display: flex;
-            width: fit-content;
-            gap: 75px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-            font-style: normal;
-            font-weight: 600;
-            line-height: normal;
-            padding: 20px;
-            
-          }
-          
+    .moreContainer:hover {
+        gap: 3px;
+    }
+
+    section .apiDocument {
+        display: flex;
+        width: fit-content;
+        gap: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 20px;
+
+    }
+
 }

@@ -172,12 +172,13 @@ section .contact:hover {
 
   .foot {
     padding-top: 15%;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
   .footercon {
     display: grid;
     grid-template-columns: 1fr;
+    width: 90%;
 
   }
 

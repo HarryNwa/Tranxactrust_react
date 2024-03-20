@@ -18,8 +18,8 @@ const Intro = () => {
     return (
         // <IntroSect text={"Unlocking barriers"} imgage={gif} img={style.img} text2={"for all payments"} 
         // text3={"Accept payments from anywhere. Pay vendors with a direct or escrow account. Retain control over payouts. Never let trust cost you the deal."} btn={"Create a free account"} btn2={"Contact sales"}/>
-        
-        <section className="container mx-auto h-full w-screen ">
+
+        <section className="container mx-auto h-full w-screen flex flex-row">
             <div className={style.unlock}>
                 {/* <div className={style.barrier}>
                             <span className={style.span}>Win customer trust, </span>

@@ -155,7 +155,7 @@ section .ticker {
   section .row4 {
     display: block;
     margin: 0 auto;
-    width: fit-content;
+    width: 100%;
     /* gap: 20px; */
 
   }
@@ -174,13 +174,13 @@ section .ticker {
     /* padding: 4px 8px; */
     color: var(--Gray-Colour-01, #FCFCFD);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 600;
     cursor: pointer;
     line-height: normal;
     letter-spacing: 0.3px;
-    width: 155px;
+    width: fit-content;
 
   }
 
@@ -188,7 +188,7 @@ section .ticker {
     display: flex;
     color: var(--Gray-Colour-08, #0887ef);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
@@ -198,7 +198,7 @@ section .ticker {
     top: 15%;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: fit-content;
   }
 
   section .contact:hover {

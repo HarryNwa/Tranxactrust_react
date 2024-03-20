@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer>
 
-            {/* <div className={style.footercon}> */}
+            <div className={style.footercon}>
                 <div className={style.row1}>
                     <div className={style.xlogo1}>
                         {/* <img className="xlogo3" src="Tranxact logoo.png" /> */}
@@ -173,7 +173,7 @@ const Footer = () => {
                             <p className={style.trxt}>&copy; Tranxactrust 2024, All rights reserved<br /></p>
                         </div>
                 </div>
-            {/* </div> */}
+            </div>
         </footer>
 
     );

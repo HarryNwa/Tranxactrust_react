@@ -54,7 +54,7 @@ const Choose = () => {
                     Why choose <span className={style.span2}>
                     Tranxactrust</span> for your business?
                 </div>
-                {/* <div className={style.row4}> */}
+                <div className={style.row4}>
 
                     <div >
                         <div className={style.ticker}>
@@ -164,7 +164,7 @@ const Choose = () => {
                                 </Link>
                             </li>
                         </ul>
-                    {/* </div> */}
+                    </div>
 
                     <img className={style.img} src={image} alt="image" />
                 </div>

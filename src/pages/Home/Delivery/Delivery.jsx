@@ -118,7 +118,7 @@ const Delivery = () => {
                 <div className={style.index}>
                     <div className={style.linkContainer3}>
                         <div className={style.delivery}>
-                            <p className={style.edp}>Express Delivery Protocol <abbr title="Express Delivery Protocol">(EDP)</abbr></p>
+                            <p className={style.edp}>Delivery Protocol <abbr title="Delivery Protocol">(DP)</abbr></p>
 
                             <div className={style.svgContainer}>
                                 <svg className={style.svg1} width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +137,7 @@ const Delivery = () => {
                                 delivery services and update your Tranxactrust account with
                                 reliable delivery logistics details - whether commercial
                                 vehicles for waybills or courier services like GIG, DHL, UPS,
-                                FedEx, etc. Passing our <abbr title="Express Delivery Protocol" className={style.abbr}>EDP</abbr> clearance status is easy, clears
+                                FedEx, etc. Passing our express <abbr title="Delivery Protocol" className={style.abbr}>Delivery Protocol</abbr> clearance status is easy, clears
                                 any doubts of time wasting and consolidates your capacity and
                                 readiness to deliver paid products.
                             </p>

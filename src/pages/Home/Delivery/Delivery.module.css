@@ -1,43 +1,43 @@
-section{
+section {
   width: 100%;
   display: block;
 }
 
-.sync{
+.sync {
   width: 60%;
   margin: 0 auto;
 
 }
 
-section .description{
+section .description {
   color: var(--Gray-Colour-07, #454649);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 30px; 
+  line-height: 30px;
   letter-spacing: 1.3px;
   width: 350px;
   padding: 25px 25px;
 
 }
 
-section .update{
+section .update {
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   color: var(--Secondary-Colour-05, #0887ef);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal; 
+  line-height: normal;
   cursor: pointer;
 
 }
 
-section .account2{
-  border: 5px solid  #0887ef;
-  background-color:  #0887ef;
+section .account2 {
+  border: 5px solid #0887ef;
+  background-color: #0887ef;
   border-radius: 28px;
   padding: 5px 8px;
   color: var(--Gray-Colour-01, #FCFCFD);
@@ -46,7 +46,7 @@ section .account2{
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  letter-spacing: 0.3px; 
+  letter-spacing: 0.3px;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -54,36 +54,37 @@ section .account2{
 }
 
 
-.account2:hover{
+.account2:hover {
   gap: 3px;
 }
 
 .svg1,
 .svg2 {
-    position: absolute;
-
-}
-
-.svg1{
-    width: 45px;
-    height: 45px;
-    flex-shrink: 0; 
-    fill: var(--Secondary-Colour-01, #0887ef); 
-}
-.svg2 {
-    width: 43px;
-    height: 43px;
-    flex-shrink: 0; 
-    fill: var(--Secondary-Colour-01, #f6f8fa);
+  position: absolute;
 
 }
 
 .svg1 {
-    z-index: 1;
+  width: 45px;
+  height: 45px;
+  flex-shrink: 0;
+  fill: var(--Secondary-Colour-01, #0887ef);
 }
 
 .svg2 {
-    z-index: 2;
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  fill: var(--Secondary-Colour-01, #f6f8fa);
+
+}
+
+.svg1 {
+  z-index: 1;
+}
+
+.svg2 {
+  z-index: 2;
 }
 
 section .index {
@@ -144,7 +145,7 @@ section .introHeader {
   text-align: left;
 }
 
-section .span2{
+section .span2 {
   color: var(--primary-co-our-05, #0887ef);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 28px;
@@ -159,7 +160,7 @@ section .rectangle-image {
 
 }
 
-.abbr{
+.abbr {
   text-decoration: none;
   text-decoration-skip-ink: none;
 }
@@ -190,22 +191,22 @@ section .span1 {
   font-style: normal;
   font-weight: 901;
   line-height: normal;
-  letter-spacing: 1.8px; 
+  letter-spacing: 1.8px;
 }
 
-section .trust2{
+section .trust2 {
   width: 700px;
   color: var(--Gray-Colour-08, #6E7480);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
   margin: 0 auto;
   letter-spacing: 1.3px;
 }
 
-section .delivery{
+section .delivery {
   display: flex;
   gap: 85px;
   font-family: Arial, Helvetica, sans-serif;
@@ -214,10 +215,10 @@ section .delivery{
   font-weight: 600;
   line-height: normal;
   padding: 20px;
-  
+
 }
 
-section .edp{
+section .edp {
   width: 200px;
   text-decoration: none;
   text-decoration-skip-ink: none;
@@ -228,13 +229,13 @@ section .edp{
 
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
+  from {
+    opacity: 0;
+  }
 
-	to {
-		opacity: 1;
-	}
+  to {
+    opacity: 1;
+  }
 }
 
 
@@ -258,36 +259,36 @@ section .edp{
 }
 
 @media(min-width: 390px) and (max-width: 539px){ */
-  @media screen and (max-width: 728px) {
-  section .description{
+@media screen and (max-width: 728px) {
+  section .description {
     color: var(--Gray-Colour-07, #454649);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 30px; 
+    line-height: 30px;
     letter-spacing: 1.3px;
     width: fit-content;
     /* padding: 25px 25px; */
-  
+
   }
-  
-  section .update{
+
+  section .update {
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
     color: var(--Secondary-Colour-05, #0887ef);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal; 
+    line-height: normal;
     cursor: pointer;
-  
+
   }
-  
-  section .account2{
-    border: 5px solid  #0887ef;
-    background-color:  #0887ef;
+
+  section .account2 {
+    border: 5px solid #0887ef;
+    background-color: #0887ef;
     border-radius: 28px;
     padding: 5px 8px;
     color: var(--Gray-Colour-01, #FCFCFD);
@@ -296,50 +297,51 @@ section .edp{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    letter-spacing: 0.3px; 
+    letter-spacing: 0.3px;
     display: flex;
     align-items: center;
     cursor: pointer;
     margin-top: 5%;
   }
-  
-  
-  .account2:hover{
+
+
+  .account2:hover {
     gap: 3px;
   }
-  
+
   .svg1,
   .svg2 {
-      position: absolute;
-  
+    position: absolute;
+
   }
-  
-  .svg1{
-      width: 45px;
-      height: 45px;
-      flex-shrink: 0; 
-      fill: var(--Secondary-Colour-01, #0887ef); 
-  }
-  .svg2 {
-      width: 43px;
-      height: 43px;
-      flex-shrink: 0; 
-      fill: var(--Secondary-Colour-01, #f6f8fa);
-  
-  }
-  
+
   .svg1 {
-      z-index: 1;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    fill: var(--Secondary-Colour-01, #0887ef);
   }
-  
+
   .svg2 {
-      z-index: 2;
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+    fill: var(--Secondary-Colour-01, #f6f8fa);
+
   }
-  
+
+  .svg1 {
+    z-index: 1;
+  }
+
+  .svg2 {
+    z-index: 2;
+  }
+
   section .index {
     display: block;
     width: fit-content;
-  
+
   }
 
   /* section .index {
@@ -349,8 +351,8 @@ section .edp{
     padding-right: 100px;
   
   } */
-  
-  
+
+
   section .barrier1 {
     color: var(--Secondary-Colour-06, black);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif1;
@@ -361,7 +363,13 @@ section .edp{
     text-align: center;
     letter-spacing: 1.8px;
   }
-  
+
+  .sync {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+
   /* section .linkContainer2 {
     flex-shrink: 0;
     gap: 50px;
@@ -373,20 +381,20 @@ section .edp{
     justify-content: center;
     
   } */
-  
+
   section .linkContainer3 {
     border-radius: 10px 100px 10px 10px;
     background: var(--Neutral-white, #f3f5f9);
     box-shadow: 0px 5px 20px 0px rgba(139, 142, 149, 0.15);
     margin-left: 2px;
     width: fit-content;
-    
+
   }
-  
+
   section .deliveryman {
     margin: 0 auto;
   }
-  
+
   section .introHeader {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -398,8 +406,8 @@ section .edp{
     width: fit-content;
     text-align: left;
   }
-  
-  section .span2{
+
+  section .span2 {
     color: var(--primary-co-our-05, #0887ef);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 28px;
@@ -408,27 +416,27 @@ section .edp{
     line-height: normal;
     letter-spacing: 1.8px;
   }
-  
-  section .rectangle{
+
+  section .rectangle {
     width: fit-content;
-  
+
   }
-  
-  .abbr{
+
+  .abbr {
     text-decoration: none;
     text-decoration-skip-ink: none;
   }
-  
+
   section .green {
     display: block;
   }
-  
+
   section .location {
     display: none;
     justify-content: space-around;
-  
+
   }
-  
+
   section .span1 {
     color: var(--primary-co-our-05, #0887ef);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -436,38 +444,37 @@ section .edp{
     font-style: normal;
     font-weight: 901;
     line-height: normal;
-    letter-spacing: 1.8px; 
+    letter-spacing: 1.8px;
   }
-  
-  section .trust2{
+
+  section .trust2 {
     width: fit-content;
     color: var(--Gray-Colour-08, #6E7480);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
     margin: 0 auto;
     letter-spacing: 1.3px;
   }
-  
-  section .delivery{
+
+  section .delivery {
     display: flex;
     width: fit-content;
-    /* gap: 125px; */
+    gap: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     /* padding: 20px; */
-    
+
   }
-  
-  section .edp{
-    width: 175px;
-  
+
+  section .edp {
+    width: fit-content;
+    margin-right: 28%;
+
   }
 }
-
-
