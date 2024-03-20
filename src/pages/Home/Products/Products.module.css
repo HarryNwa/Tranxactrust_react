@@ -1277,7 +1277,7 @@ section .listContainer {
 
   .paymentIntro {
     display: block;
-    margin-left: -5%;
+    margin-left: 3%;
     /* width: 350px; */
 
   }
@@ -1293,7 +1293,6 @@ section .listContainer {
     display: block;
     /* margin-left: 1%; */
     width: fit-content;
-
     /* margin-right: 5px; */
     /* margin: 0 auto; */
     color: var(--primary-co-our-05, rgb(255, 89, 0));
