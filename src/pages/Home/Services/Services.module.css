@@ -1128,10 +1128,7 @@ section .moreContainer{
         margin-top: 15%;
         display: grid;
         grid-template-columns: 1fr;
-        width: fit-content;
-        /* align-items: flex-start;
-        align-content: flex-start;
-        gap: 20px 20px; */
+        width: 100%;
         flex-wrap: wrap;
     }
 
@@ -1181,7 +1178,8 @@ section .moreContainer{
 
     section .link {
         display: flex;
-        gap: 105px;
+        /* gap: 41%; */
+        justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1203,7 +1201,8 @@ section .moreContainer{
 
     section .escrow {
         display: flex;
-        gap: 90px;
+        /* gap: 35%; */
+        justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1215,7 +1214,8 @@ section .moreContainer{
 
     section .reverse {
         display: flex;
-        gap: 68px;
+        /* gap: 26%; */
+        justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1239,7 +1239,8 @@ section .moreContainer{
 
     section .support {
         display: flex;
-        gap: 114px;
+        /* gap: 43%; */
+        justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1250,7 +1251,8 @@ section .moreContainer{
 
     section .delivery {
         display: flex;
-        gap: 36px;
+        /* gap: 65%; */
+        justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
@@ -1310,8 +1312,9 @@ section .moreContainer{
 
     section .apiDocument {
         display: flex;
-        width: fit-content;
-        gap: 45px;
+        /* width: 100%; */
+        /* gap: 17%; */
+        justify-content: space-between;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
