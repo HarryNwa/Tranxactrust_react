@@ -126,11 +126,8 @@
 
   @media screen and (max-width: 728px) {
     /* @media(min-width: 390px) and (max-width: 539px){ */
-      .welcome{
-        width: 100%;
-        /* align-items: center; */
-        /* margin-right: 5%; */
-        /* padding: 0px 5px 0px 15px; */
+      section{
+        width: 10%;
     
       }
      

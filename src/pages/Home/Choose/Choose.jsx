@@ -50,12 +50,13 @@ const Choose = () => {
     return (
         <section className="container mx-auto h-full w-screen text-center flex flex-col">
             {/* <div> */}
-                <div className={style.choose}>Why choose <span className={style.span2}>
+                <div className={style.choose}>
+                    Why choose <span className={style.span2}>
                     Tranxactrust</span> for your business?
                 </div>
-                <div className={style.row4}>
+                {/* <div className={style.row4}> */}
 
-                    <div>
+                    <div >
                         <div className={style.ticker}>
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -163,7 +164,7 @@ const Choose = () => {
                                 </Link>
                             </li>
                         </ul>
-                    </div>
+                    {/* </div> */}
 
                     <img className={style.img} src={image} alt="image" />
                 </div>

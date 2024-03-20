@@ -24,7 +24,7 @@ const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
                             {/* <div className={style.barrier}>
                             <span className={style.span}>Win customer trust, </span>
                             fuel your growth
-                        </div> */}
+                            </div> */}
 
                             <div className={style.barrier}>
                                 <span className={style.span}>{text} </span>{text2}

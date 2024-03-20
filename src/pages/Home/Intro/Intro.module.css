@@ -1,21 +1,20 @@
-main {
+/* main {
   width: 100%;
   overflow: hidden;
-  /* position: relative; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background: rgb(247, 250, 253);
   box-sizing: border-box;
-}
+} */
 
-/* section {
+section {
   display: flex;
   padding: 30px;
   justify-content: center;
   margin: 0 auto;
-  
-} */
+
+}
 
 /* .welcome {
   display: flex;
@@ -25,6 +24,7 @@ main {
 
 section .gif {
   display: block;
+  width: 100%;
 }
 
 section .barrier {
@@ -35,7 +35,8 @@ section .barrier {
   font-weight: 1000;
   line-height: normal;
   letter-spacing: 1.8px;
-  width: 800px;
+  width: fit-content;
+  /* margin-top: -5%; */
 }
 
 section .span {
@@ -45,7 +46,7 @@ section .span {
   font-weight: 1000;
   line-height: normal;
   letter-spacing: 1.8px;
-  width: 100%;
+  width: fit-content;
   font-size: 100px;
 }
 
@@ -64,9 +65,9 @@ section .trust {
 section .button {
   display: flex;
   float: left;
-  width: 100%;
+  width: fit-content;
   gap: 20px;
-  padding-top: 5%;
+  /* padding-top: 5%; */
 }
 
 section .account {
@@ -98,7 +99,7 @@ section .contact {
   padding-top: 5%;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 section .contact:hover {
@@ -108,13 +109,13 @@ section .contact:hover {
 
 
 @keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
+  from {
+    opacity: 0;
+  }
 
-	to {
-		opacity: 1;
-	}
+  to {
+    opacity: 1;
+  }
 }
 
 
@@ -504,19 +505,22 @@ section .contact:hover {
 } */
 
 @media screen and (max-width: 728px) {
-/* @media(min-width: 390px) and (max-width: 539px){ */
-  .welcome{
+
+  /* @media(min-width: 390px) and (max-width: 539px){ */
+  section {
     width: 100%;
+    display: block;
     /* align-items: center; */
     /* margin-right: 5%; */
     /* padding: 0px 5px 0px 15px; */
 
   }
- 
+
   section .gif {
     display: none;
   }
-	section .barrier {
+
+  section .barrier {
     color: var(--Secondary-Colour-06, black);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif1;
     font-size: 36px;
@@ -525,9 +529,9 @@ section .contact:hover {
     line-height: normal;
     letter-spacing: 1.5px;
     width: fit-content;
-    /* padding-left: 1%; */
+    /* padding-left: 3%; */
   }
-  
+
   section .span {
     color: var(--primary-co-our-05, #068bf7);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -538,7 +542,7 @@ section .contact:hover {
     width: fit-content;
     font-size: 36px;
   }
-  
+
   section .trust {
     width: fit-content;
     color: var(--Gray-Colour-08, #6E7480);
@@ -548,21 +552,21 @@ section .contact:hover {
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 1.8px;
-    padding-top: 7%;
+    /* padding-top: 7%; */
     /* padding-left: 4%; */
 
   }
-  
+
   section .button {
     display: flex;
-    float: left;
+    /* float: right; */
     width: fit-content;
-    gap: 5px;
-    padding-top: 5%;
-    /* padding-left: 4%; */
+    gap: 7px;
+    /* padding-top: 5%; */
+    /* padding-left: -4%; */
 
   }
-  
+
   section .account {
     border: 5px solid #0887ef;
     background-color: #0887ef;
@@ -570,40 +574,40 @@ section .contact:hover {
     padding: 4px 8px;
     color: var(--Gray-Colour-01, #FCFCFD);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 15.5px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     cursor: pointer;
     line-height: normal;
     letter-spacing: 0.3px;
-    width: 190px;
+    width: fit-content;
 
   }
-  
+
   section .contact {
     display: flex;
     color: var(--Gray-Colour-08, #0887ef);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
-    letter-spacing: 1.3px;
+    /* letter-spacing: 1px; */
     gap: 0px;
     /* position: relative; */
-    top: 13%;
+    /* top: 13%; */
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: fit-content;
     padding-top: 3%;
   }
-  
+
   section .contact:hover {
     column-gap: 5px;
     color: #4e9cea;
   }
 
-  .contactSvg{
+  .contactSvg {
     display: none;
   }
 }

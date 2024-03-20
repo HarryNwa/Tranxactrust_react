@@ -144,7 +144,7 @@ section .ticker {
     font-weight: 700;
     line-height: normal;
     line-height: 40px;
-    text-align: center;
+    /* text-align: center; */
     /* padding: 40px; */
   }
 
@@ -155,6 +155,7 @@ section .ticker {
   section .row4 {
     display: block;
     margin: 0 auto;
+    width: fit-content;
     /* gap: 20px; */
 
   }
@@ -162,7 +163,7 @@ section .ticker {
   section .button {
     display: flex;
     float: left;
-    width: fit-content;
+    /* width: fit-content; */
     /* gap: 20px; */
   }
 
@@ -214,27 +215,29 @@ section .ticker {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 28px;
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 1.8px;
   }
 
   section .puncher {
-    width: 90%;
+    width: fit-content;
     line-height: 40px;
   }
 
   section .ticker {
     gap: 20px;
-    align-items: center;
+    /* align-items: center; */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: left;
+    justify-items: center;
     letter-spacing: 1.3px;
     width: fit-content;
     display: flex;
+    /* flex-direction: column; */
   }
 }
