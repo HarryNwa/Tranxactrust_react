@@ -220,7 +220,7 @@ section .ticker {
   }
 
   section .puncher {
-    width: fit-content;
+    width: 90%;
     line-height: 40px;
   }
 

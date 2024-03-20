@@ -17,7 +17,7 @@ const IntroSect = ({ text, text2, imgage, img, text3, btn, btn2 }) => {
 
     return (
         // <main>
-        <section className="container mx-auto h-full w-screen flex flex-col">
+        <section className="container mx-auto h-full w-screen flex flex-row">
                 {/* <div className={style.wrapper}> */}
                     {/* <div className={style.welcome}> */}
                         <div className={style.unlock}>
