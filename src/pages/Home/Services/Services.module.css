@@ -1106,9 +1106,10 @@ section .moreContainer{
 
 @media screen and (max-width: 728px) {
 
-    .index {
+    /* section {
         display: block;
         margin: 0 auto;
+        width: 100%;
     }
 
 
@@ -1122,7 +1123,7 @@ section .moreContainer{
         line-height: normal;
         line-height: 40px;
         text-align: center;
-    }
+    } */
 
     section .listContainer {
         margin-top: 15%;
@@ -1132,12 +1133,12 @@ section .moreContainer{
         flex-wrap: wrap;
     }
 
-    .svg1,
+    /* .svg1,
     .svg2,
     .svg3 {
         position: absolute;
 
-    }
+    } */
 
 
     .svg1 {
@@ -1176,16 +1177,22 @@ section .moreContainer{
         z-index: 2;
     }
 
+    section .svgContainer {
+        /* float: right; */
+        /* margin-left: -2px; */
+    }
+
     section .link {
         display: flex;
-        /* gap: 41%; */
-        justify-content: space-between;
+        width: 100%;
+        gap: 40%;
+        /* justify-content: space-between; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 20px;
+        /* padding: 20px; */
 
 
     }
@@ -1195,33 +1202,34 @@ section .moreContainer{
         grid-template-columns: 1fr;
         /* gap: 20px;
         margin: 0 auto; */
+        /* width: 100%; */
 
     }
 
 
     section .escrow {
         display: flex;
-        /* gap: 35%; */
-        justify-content: space-between;
+        gap: 35%;
+        /* justify-content: space-between; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 20px;
+        /* padding: 20px; */
 
     }
 
     section .reverse {
         display: flex;
-        /* gap: 26%; */
-        justify-content: space-between;
+        gap: 26%;
+        /* justify-content: space-between; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 20px;
+        /* padding: 20px; */
 
 
     }
@@ -1239,26 +1247,26 @@ section .moreContainer{
 
     section .support {
         display: flex;
-        /* gap: 43%; */
-        justify-content: space-between;
+        gap: 43%;
+        /* justify-content: space-between; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 20px;
+        /* padding: 20px; */
     }
 
     section .delivery {
         display: flex;
-        /* gap: 65%; */
-        justify-content: space-between;
+        gap: 65%;
+        /* justify-content: space-between; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 20px;
+        /* padding: 20px; */
 
     }
 
@@ -1313,14 +1321,14 @@ section .moreContainer{
     section .apiDocument {
         display: flex;
         /* width: 100%; */
-        /* gap: 17%; */
-        justify-content: space-between;
+        gap: 17%;
+        /* justify-content: space-between; */
         font-family: Arial, Helvetica, sans-serif;
         font-size: 20px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        padding: 20px;
+        /* padding: 20px; */
 
     }
 
